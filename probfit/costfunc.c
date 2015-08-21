@@ -588,7 +588,7 @@ typedef struct {
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":723
  * # in Cython to enable them only on the right systems.
- * 
+ *
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
@@ -596,7 +596,7 @@ typedef struct {
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":724
- * 
+ *
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
  * ctypedef npy_int32      int32_t
@@ -624,7 +624,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":730
  * #ctypedef npy_int128     int128_t
- * 
+ *
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
@@ -632,7 +632,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":731
- * 
+ *
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uint32     uint32_t
@@ -660,7 +660,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":737
  * #ctypedef npy_uint128    uint128_t
- * 
+ *
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
  * ctypedef npy_float64    float64_t
  * #ctypedef npy_float80    float80_t
@@ -668,7 +668,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":738
- * 
+ *
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
  * #ctypedef npy_float80    float80_t
@@ -690,7 +690,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longlong   longlong_t
- * 
+ *
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
@@ -698,14 +698,14 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_ulong      uint_t
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":751
  * ctypedef npy_longlong   longlong_t
- * 
+ *
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t
@@ -713,11 +713,11 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":752
- * 
+ *
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
  * ctypedef npy_ulonglong  ulonglong_t
- * 
+ *
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
@@ -725,32 +725,32 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_intp       intp_t
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":755
  * ctypedef npy_ulonglong  ulonglong_t
- * 
+ *
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
  * ctypedef npy_uintp      uintp_t
- * 
+ *
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":756
- * 
+ *
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_double     float_t
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":758
  * ctypedef npy_uintp      uintp_t
- * 
+ *
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t
@@ -758,11 +758,11 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
 typedef npy_double __pyx_t_5numpy_float_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":759
- * 
+ *
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
  * ctypedef npy_longdouble longdouble_t
- * 
+ *
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
@@ -770,7 +770,7 @@ typedef npy_double __pyx_t_5numpy_double_t;
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t
  */
 typedef npy_longdouble __pyx_t_5numpy_longdouble_t;
@@ -806,7 +806,7 @@ struct __pyx_obj_7probfit_8costfunc_UnbinnedLH;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":762
  * ctypedef npy_longdouble longdouble_t
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t
@@ -814,11 +814,11 @@ struct __pyx_obj_7probfit_8costfunc_UnbinnedLH;
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":763
- * 
+ *
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
  * ctypedef npy_clongdouble clongdouble_t
- * 
+ *
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
@@ -826,16 +826,16 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
- * 
+ *
  * ctypedef npy_cdouble     complex_t
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":766
  * ctypedef npy_clongdouble clongdouble_t
- * 
+ *
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):
  */
 typedef npy_cdouble __pyx_t_5numpy_complex_t;
@@ -843,9 +843,9 @@ struct __pyx_opt_args_7probfit_8_libstat_integrate1d;
 
 /* "_libstat.pxd":13
  * cpdef bint has_ana_integral(f)
- * 
+ *
  * cpdef double integrate1d(f, tuple bound, int nint, tuple arg=*) except *             # <<<<<<<<<<<<<<
- * 
+ *
  * cpdef double integrate1d_with_edges(f,np.ndarray edges, double bw, tuple arg) except *
  */
 struct __pyx_opt_args_7probfit_8_libstat_integrate1d {
@@ -855,9 +855,9 @@ struct __pyx_opt_args_7probfit_8_libstat_integrate1d {
 
 /* "probfit/costfunc.pyx":20
  *     bint isnan(double x)
- * 
+ *
  * cdef class SimultaneousFit:             # <<<<<<<<<<<<<<
- * 
+ *
  *     cdef readonly list allf
  */
 struct __pyx_obj_7probfit_8costfunc_SimultaneousFit {
@@ -877,7 +877,7 @@ struct __pyx_obj_7probfit_8costfunc_SimultaneousFit {
  *             ret_val = construct_arg(minuit.args, self.allpos[i])
  *             errors = dict((remove_prefix(k, p), minuit.errors[k]) for k in keys)             # <<<<<<<<<<<<<<
  *             return ret_val, errors
- * 
+ *
  */
 struct __pyx_obj_7probfit_8costfunc___pyx_scope_struct_1_genexpr {
   PyObject_HEAD
@@ -890,7 +890,7 @@ struct __pyx_obj_7probfit_8costfunc___pyx_scope_struct_1_genexpr {
 
 
 /* "probfit/costfunc.pyx":591
- * 
+ *
  * #fit a line with given function using minimizing chi2
  * cdef class Chi2Regression:             # <<<<<<<<<<<<<<
  *     cdef readonly object f
@@ -912,8 +912,8 @@ struct __pyx_obj_7probfit_8costfunc_Chi2Regression {
 
 
 /* "probfit/costfunc.pyx":341
- * 
- * 
+ *
+ *
  * cdef class BinnedLH:             # <<<<<<<<<<<<<<
  *     cdef readonly object f
  *     cdef readonly object vf
@@ -943,8 +943,8 @@ struct __pyx_obj_7probfit_8costfunc_BinnedLH {
 
 
 /* "probfit/costfunc.pyx":706
- * 
- * 
+ *
+ *
  * cdef class BinnedChi2:             # <<<<<<<<<<<<<<
  *     cdef readonly object f
  *     cdef readonly object vf
@@ -969,8 +969,8 @@ struct __pyx_obj_7probfit_8costfunc_BinnedChi2 {
 
 
 /* "probfit/costfunc.pyx":71
- * 
- * 
+ *
+ *
  *     def args_and_error_for(self, findex, minuit=None, args=None, errors=None):             # <<<<<<<<<<<<<<
  *         """
  *         convert argument from minuit/dictionary/errors to argument and error
@@ -984,8 +984,8 @@ struct __pyx_obj_7probfit_8costfunc___pyx_scope_struct__args_and_error_for {
 
 
 /* "probfit/costfunc.pyx":126
- * 
- * 
+ *
+ *
  * cdef class UnbinnedLH:             # <<<<<<<<<<<<<<
  *     cdef readonly object f
  *     cdef readonly object weights
@@ -1928,11 +1928,11 @@ static int __pyx_pf_7probfit_8costfunc_15SimultaneousFit___init__(struct __pyx_o
     }
     #if CYTHON_COMPILING_IN_CPYTHON
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_1 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_1 = PyTuple_GET_ITEM(sequence, 1);
     } else {
-      __pyx_t_3 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_1 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_3 = PyList_GET_ITEM(sequence, 0);
+      __pyx_t_1 = PyList_GET_ITEM(sequence, 1);
     }
     __Pyx_INCREF(__pyx_t_3);
     __Pyx_INCREF(__pyx_t_1);
@@ -2074,7 +2074,7 @@ static int __pyx_pf_7probfit_8costfunc_15SimultaneousFit___init__(struct __pyx_o
  *             factors = np.array([1.]*len(arg))
  *         self.prefix = prefix             # <<<<<<<<<<<<<<
  *         self.factors = factors
- * 
+ *
  */
   __Pyx_INCREF(__pyx_v_prefix);
   __Pyx_GIVEREF(__pyx_v_prefix);
@@ -2086,8 +2086,8 @@ static int __pyx_pf_7probfit_8costfunc_15SimultaneousFit___init__(struct __pyx_o
  *             factors = np.array([1.]*len(arg))
  *         self.prefix = prefix
  *         self.factors = factors             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   if (!(likely(((__pyx_v_factors) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_factors, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 57; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_4 = __pyx_v_factors;
@@ -2125,8 +2125,8 @@ static int __pyx_pf_7probfit_8costfunc_15SimultaneousFit___init__(struct __pyx_o
 }
 
 /* "probfit/costfunc.pyx":60
- * 
- * 
+ *
+ *
  *     def __call__(self, *arg):             # <<<<<<<<<<<<<<
  *         cdef double ret = 0.
  *         cdef np.ndarray[np.int_t] pos
@@ -2182,7 +2182,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_2__call__(struct 
   __pyx_pybuffernd_pos.rcbuffer = &__pyx_pybuffer_pos;
 
   /* "probfit/costfunc.pyx":61
- * 
+ *
  *     def __call__(self, *arg):
  *         cdef double ret = 0.             # <<<<<<<<<<<<<<
  *         cdef np.ndarray[np.int_t] pos
@@ -2253,7 +2253,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_2__call__(struct 
  *             thisarg = construct_arg(arg, pos)
  *             ret += self.factors[i]*self.allf[i](*thisarg)             # <<<<<<<<<<<<<<
  *         return ret
- * 
+ *
  */
     __pyx_t_3 = PyFloat_FromDouble(__pyx_v_ret); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 67; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_3);
@@ -2288,8 +2288,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_2__call__(struct 
  *             thisarg = construct_arg(arg, pos)
  *             ret += self.factors[i]*self.allf[i](*thisarg)
  *         return ret             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_12 = PyFloat_FromDouble(__pyx_v_ret); if (unlikely(!__pyx_t_12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 68; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -2299,8 +2299,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_2__call__(struct 
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":60
- * 
- * 
+ *
+ *
  *     def __call__(self, *arg):             # <<<<<<<<<<<<<<
  *         cdef double ret = 0.
  *         cdef np.ndarray[np.int_t] pos
@@ -2331,8 +2331,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_2__call__(struct 
 }
 
 /* "probfit/costfunc.pyx":71
- * 
- * 
+ *
+ *
  *     def args_and_error_for(self, findex, minuit=None, args=None, errors=None):             # <<<<<<<<<<<<<<
  *         """
  *         convert argument from minuit/dictionary/errors to argument and error
@@ -2429,7 +2429,7 @@ static PyObject *__pyx_gb_7probfit_8costfunc_15SimultaneousFit_18args_and_error_
  *             ret_val = construct_arg(minuit.args, self.allpos[i])
  *             errors = dict((remove_prefix(k, p), minuit.errors[k]) for k in keys)             # <<<<<<<<<<<<<<
  *             return ret_val, errors
- * 
+ *
  */
 
 static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_18args_and_error_for_genexpr(PyObject *__pyx_self) {
@@ -2601,8 +2601,8 @@ static PyObject *__pyx_gb_7probfit_8costfunc_15SimultaneousFit_18args_and_error_
 }
 
 /* "probfit/costfunc.pyx":71
- * 
- * 
+ *
+ *
  *     def args_and_error_for(self, findex, minuit=None, args=None, errors=None):             # <<<<<<<<<<<<<<
  *         """
  *         convert argument from minuit/dictionary/errors to argument and error
@@ -2812,7 +2812,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
  *             ret_val = construct_arg(minuit.args, self.allpos[i])
  *             errors = dict((remove_prefix(k, p), minuit.errors[k]) for k in keys)             # <<<<<<<<<<<<<<
  *             return ret_val, errors
- * 
+ *
  */
     __pyx_t_8 = __pyx_pf_7probfit_8costfunc_15SimultaneousFit_18args_and_error_for_genexpr(((PyObject*)__pyx_cur_scope)); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 86; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_8);
@@ -2831,7 +2831,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
  *             ret_val = construct_arg(minuit.args, self.allpos[i])
  *             errors = dict((remove_prefix(k, p), minuit.errors[k]) for k in keys)
  *             return ret_val, errors             # <<<<<<<<<<<<<<
- * 
+ *
  *         if isinstance(args, dict):
  */
     __Pyx_XDECREF(__pyx_r);
@@ -2850,17 +2850,17 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
 
   /* "probfit/costfunc.pyx":89
  *             return ret_val, errors
- * 
+ *
  *         if isinstance(args, dict):             # <<<<<<<<<<<<<<
  *             parameters = describe(self)
  *             pos = self.allpos[i]
  */
-  __pyx_t_2 = PyDict_Check(__pyx_v_args); 
+  __pyx_t_2 = PyDict_Check(__pyx_v_args);
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
     /* "probfit/costfunc.pyx":90
- * 
+ *
  *         if isinstance(args, dict):
  *             parameters = describe(self)             # <<<<<<<<<<<<<<
  *             pos = self.allpos[i]
@@ -2976,7 +2976,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
  *             ret_val = [ args[parameters[pos[j]]] for j in range(len(pos))]
  *         else:
  *             ret_val = construct_arg(args, self.allpos[i])             # <<<<<<<<<<<<<<
- * 
+ *
  *         if errors is not None:
  */
     if (!(likely(PyTuple_CheckExact(__pyx_v_args))||((__pyx_v_args) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "tuple", Py_TYPE(__pyx_v_args)->tp_name), 0))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 94; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -2997,20 +2997,20 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
 
   /* "probfit/costfunc.pyx":96
  *             ret_val = construct_arg(args, self.allpos[i])
- * 
+ *
  *         if errors is not None:             # <<<<<<<<<<<<<<
  *             ret_err = errors
- * 
+ *
  */
   __pyx_t_1 = (__pyx_v_errors != Py_None);
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
     /* "probfit/costfunc.pyx":97
- * 
+ *
  *         if errors is not None:
  *             ret_err = errors             # <<<<<<<<<<<<<<
- * 
+ *
  *         return ret_val, ret_err
  */
     __Pyx_INCREF(__pyx_v_errors);
@@ -3021,10 +3021,10 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
 
   /* "probfit/costfunc.pyx":99
  *             ret_err = errors
- * 
+ *
  *         return ret_val, ret_err             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 99; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -3040,8 +3040,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":71
- * 
- * 
+ *
+ *
  *     def args_and_error_for(self, findex, minuit=None, args=None, errors=None):             # <<<<<<<<<<<<<<
  *         """
  *         convert argument from minuit/dictionary/errors to argument and error
@@ -3070,8 +3070,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4args_and_error_f
 }
 
 /* "probfit/costfunc.pyx":102
- * 
- * 
+ *
+ *
  *     def show(self, m=None):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -3148,7 +3148,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_6show(struct __py
   __Pyx_RefNannySetupContext("show", 0);
 
   /* "probfit/costfunc.pyx":110
- * 
+ *
  *         """
  *         ret = self.draw(m)             # <<<<<<<<<<<<<<
  *         plt.show()
@@ -3173,7 +3173,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_6show(struct __py
  *         ret = self.draw(m)
  *         plt.show()             # <<<<<<<<<<<<<<
  *         return ret
- * 
+ *
  */
   __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_plt); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 111; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
@@ -3189,8 +3189,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_6show(struct __py
  *         ret = self.draw(m)
  *         plt.show()
  *         return ret             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_v_ret);
@@ -3198,8 +3198,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_6show(struct __py
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":102
- * 
- * 
+ *
+ *
  *     def show(self, m=None):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -3220,8 +3220,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_6show(struct __py
 }
 
 /* "probfit/costfunc.pyx":115
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, args=None, errors=None, **kwds):             # <<<<<<<<<<<<<<
  *         """
  *         Draw each pdf along with data on plotting grid
@@ -3323,11 +3323,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_8draw(struct __py
   __Pyx_RefNannySetupContext("draw", 0);
 
   /* "probfit/costfunc.pyx":122
- * 
+ *
  *         """
  *         return plotting.draw_simultaneous(self, minuit=minuit, args=args,             # <<<<<<<<<<<<<<
  *                                    errors=errors, **kwds)
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_plotting); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -3345,18 +3345,18 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_8draw(struct __py
  *         """
  *         return plotting.draw_simultaneous(self, minuit=minuit, args=args,
  *                                    errors=errors, **kwds)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_3 = PyDict_Copy(__pyx_v_kwds); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_3);
 
   /* "probfit/costfunc.pyx":122
- * 
+ *
  *         """
  *         return plotting.draw_simultaneous(self, minuit=minuit, args=args,             # <<<<<<<<<<<<<<
  *                                    errors=errors, **kwds)
- * 
+ *
  */
   if (unlikely(PyDict_GetItem(__pyx_t_3, __pyx_n_s_minuit))) {
     __Pyx_RaiseDoubleKeywordsError("function", __pyx_n_s_minuit); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -3371,8 +3371,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_8draw(struct __py
  *         """
  *         return plotting.draw_simultaneous(self, minuit=minuit, args=args,
  *                                    errors=errors, **kwds)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   if (unlikely(PyDict_GetItem(__pyx_t_3, __pyx_n_s_errors))) {
     __Pyx_RaiseDoubleKeywordsError("function", __pyx_n_s_errors); {__pyx_filename = __pyx_f[0]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -3380,11 +3380,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_8draw(struct __py
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_errors, __pyx_v_errors) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "probfit/costfunc.pyx":122
- * 
+ *
  *         """
  *         return plotting.draw_simultaneous(self, minuit=minuit, args=args,             # <<<<<<<<<<<<<<
  *                                    errors=errors, **kwds)
- * 
+ *
  */
   __pyx_t_4 = PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 122; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -3396,8 +3396,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_8draw(struct __py
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":115
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, args=None, errors=None, **kwds):             # <<<<<<<<<<<<<<
  *         """
  *         Draw each pdf along with data on plotting grid
@@ -3419,7 +3419,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_8draw(struct __py
 
 /* "probfit/costfunc.pyx":22
  * cdef class SimultaneousFit:
- * 
+ *
  *     cdef readonly list allf             # <<<<<<<<<<<<<<
  *     cdef readonly list allpos
  *     cdef readonly int numf
@@ -3455,7 +3455,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_15SimultaneousFit_4allf___get__(str
 }
 
 /* "probfit/costfunc.pyx":23
- * 
+ *
  *     cdef readonly list allf
  *     cdef readonly list allpos             # <<<<<<<<<<<<<<
  *     cdef readonly int numf
@@ -3950,7 +3950,7 @@ static int __pyx_pf_7probfit_8costfunc_10UnbinnedLH___init__(struct __pyx_obj_7p
  *         self.extended_nint = extended_nint
  *         if extended and extended_bound is None:             # <<<<<<<<<<<<<<
  *             self.extended_bound = minmax(data)
- * 
+ *
  */
   __pyx_t_6 = __Pyx_PyObject_IsTrue(__pyx_v_extended); if (unlikely(__pyx_t_6 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 198; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (__pyx_t_6) {
@@ -3965,7 +3965,7 @@ static int __pyx_pf_7probfit_8costfunc_10UnbinnedLH___init__(struct __pyx_obj_7p
  *         self.extended_nint = extended_nint
  *         if extended and extended_bound is None:
  *             self.extended_bound = minmax(data)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def __call__(self,*arg):
  */
     __pyx_t_2 = __Pyx_GetModuleGlobalName(__pyx_n_s_minmax); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 199; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -4014,7 +4014,7 @@ static int __pyx_pf_7probfit_8costfunc_10UnbinnedLH___init__(struct __pyx_obj_7p
 
 /* "probfit/costfunc.pyx":201
  *             self.extended_bound = minmax(data)
- * 
+ *
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
  *         Compute sum of -log(lh) given positional arguments.
@@ -4151,7 +4151,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_2__call__(struct __pyx
  *                                         self.extended_nint, arg)
  *             nll += extended_term             # <<<<<<<<<<<<<<
  *         return nll
- * 
+ *
  */
     __pyx_v_nll = (__pyx_v_nll + __pyx_v_extended_term);
     goto __pyx_L3;
@@ -4162,7 +4162,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_2__call__(struct __pyx
  *                                         self.extended_nint, arg)
  *             nll += extended_term
  *         return nll             # <<<<<<<<<<<<<<
- * 
+ *
  *     def draw(self, minuit=None, bins=100, ax=None, bound=None,
  */
   __Pyx_XDECREF(__pyx_r);
@@ -4174,7 +4174,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_2__call__(struct __pyx
 
   /* "probfit/costfunc.pyx":201
  *             self.extended_bound = minmax(data)
- * 
+ *
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
  *         Compute sum of -log(lh) given positional arguments.
@@ -4195,7 +4195,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_2__call__(struct __pyx
 
 /* "probfit/costfunc.pyx":217
  *         return nll
- * 
+ *
  *     def draw(self, minuit=None, bins=100, ax=None, bound=None,             # <<<<<<<<<<<<<<
  *              parmloc=(0.05,0.95), nfbins=200, print_par=True, args=None,
  *              errors=None, parts=False, show_errbars='normal', no_plot=False):
@@ -4203,7 +4203,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_2__call__(struct __pyx
 
 /* Python wrapper */
 static PyObject *__pyx_pw_7probfit_8costfunc_10UnbinnedLH_5draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_7probfit_8costfunc_10UnbinnedLH_4draw[] = "UnbinnedLH.draw(self, minuit=None, bins=100, ax=None, bound=None, parmloc=(0.05, 0.95), nfbins=200, print_par=True, args=None, errors=None, parts=False, show_errbars='normal', no_plot=False)\n\n        Draw comparison between histogram of data and pdf.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **bins** number of bins for histogram. Default 100.\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **bound** bound for histogram. If ``None`` is given the bound\n              will be automatically determined from the data.\n              If you given PDF that's normalied to a region but some data is\n              not within the bound the picture may look funny.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **nfbins** how many point pdf should be evaluated. Default 200.\n\n            - **print_par** print parameters and error on the plot. Default\n              True.\n\n            - **args** Optional. If minuit is not given, parameter value is\n              determined from args. This can be dictionary of the form\n              `{'a':1.0, 'b':1.0}` or list of values. Default None.\n\n            - **errors** Optional dictionary of errors. If minuit is not given,\n              parameter errors are determined from **errors**. Default None.\n\n            - **show_errbars** Show error bars. Default 'normal'\n                * 'normal' : error = sqrt( sum of weight )\n                * 'sumw2'  : error = s""qrt( sum of weight**2 )\n                * None : no errorbars (shown as a step histogram)\n\n            - **no_plot** Set this to True if you only want the return value\n        \n        **Returns**\n        \n        ((data_edges, datay), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)\n\n        ";
+static char __pyx_doc_7probfit_8costfunc_10UnbinnedLH_4draw[] = "UnbinnedLH.draw(self, minuit=None, bins=100, ax=None, bound=None, parmloc=(0.05, 0.95), nfbins=200, print_par=True, args=None, errors=None, parts=False, show_errbars='normal', no_plot=False)\n\n        Draw comparison between histogram of data and pdf.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **bins** number of bins for histogram. Default 100.\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **bound** bound for histogram. If ``None`` is given the bound\n              will be automatically determined from the data.\n              If you given PDF that's normalied to a region but some data is\n              not within the bound the picture may look funny.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **nfbins** how many point pdf should be evaluated. Default 200.\n\n            - **print_par** print parameters and error on the plot. Default\n              True.\n\n            - **args** Optional. If minuit is not given, parameter value is\n              determined from args. This can be dictionary of the form\n              `{'a':1.0, 'b':1.0}` or list of values. Default None.\n\n            - **errors** Optional dictionary of errors. If minuit is not given,\n              parameter errors are determined from **errors**. Default None.\n\n            - **show_errbars** Show error bars. Default 'normal'\n                * 'normal' : error = sqrt( sum of weight )\n                * 'sumw2'  : error = s""qrt( sum of weight**2 )\n                * None : no errorbars (shown as a step histogram)\n\n            - **no_plot** Set this to True if you only want the return value\n        \n        **Returns**\n        \n        ((data_edges, datay), error, (total_pdf_x, total_pdf_y), parts)\n\n        ";
 static PyObject *__pyx_pw_7probfit_8costfunc_10UnbinnedLH_5draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_minuit = 0;
   PyObject *__pyx_v_bins = 0;
@@ -4232,7 +4232,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_10UnbinnedLH_5draw(PyObject *__pyx_
     values[3] = ((PyObject *)Py_None);
 
     /* "probfit/costfunc.pyx":218
- * 
+ *
  *     def draw(self, minuit=None, bins=100, ax=None, bound=None,
  *              parmloc=(0.05,0.95), nfbins=200, print_par=True, args=None,             # <<<<<<<<<<<<<<
  *              errors=None, parts=False, show_errbars='normal', no_plot=False):
@@ -4382,7 +4382,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_10UnbinnedLH_5draw(PyObject *__pyx_
 
   /* "probfit/costfunc.pyx":217
  *         return nll
- * 
+ *
  *     def draw(self, minuit=None, bins=100, ax=None, bound=None,             # <<<<<<<<<<<<<<
  *              parmloc=(0.05,0.95), nfbins=200, print_par=True, args=None,
  *              errors=None, parts=False, show_errbars='normal', no_plot=False):
@@ -4406,7 +4406,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_4draw(struct __pyx_obj
   __Pyx_RefNannySetupContext("draw", 0);
 
   /* "probfit/costfunc.pyx":268
- * 
+ *
  *         """
  *         return plotting.draw_ulh(self, minuit=minuit, bins=bins, ax=ax,             # <<<<<<<<<<<<<<
  *             bound=bound, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
@@ -4446,7 +4446,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_4draw(struct __pyx_obj
  *             bound=bound, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
  *             args=args, errors=errors, parts=parts, show_errbars=show_errbars,             # <<<<<<<<<<<<<<
  *             no_plot=no_plot)
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_args, __pyx_v_args) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_errors, __pyx_v_errors) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -4457,13 +4457,13 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_4draw(struct __pyx_obj
  *             bound=bound, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
  *             args=args, errors=errors, parts=parts, show_errbars=show_errbars,
  *             no_plot=no_plot)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def draw_residual(self, minuit=None, bins=100, ax=None, bound=None,
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_no_plot, __pyx_v_no_plot) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 268; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "probfit/costfunc.pyx":268
- * 
+ *
  *         """
  *         return plotting.draw_ulh(self, minuit=minuit, bins=bins, ax=ax,             # <<<<<<<<<<<<<<
  *             bound=bound, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
@@ -4480,7 +4480,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_4draw(struct __pyx_obj
 
   /* "probfit/costfunc.pyx":217
  *         return nll
- * 
+ *
  *     def draw(self, minuit=None, bins=100, ax=None, bound=None,             # <<<<<<<<<<<<<<
  *              parmloc=(0.05,0.95), nfbins=200, print_par=True, args=None,
  *              errors=None, parts=False, show_errbars='normal', no_plot=False):
@@ -4502,7 +4502,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_4draw(struct __pyx_obj
 
 /* "probfit/costfunc.pyx":273
  *             no_plot=no_plot)
- * 
+ *
  *     def draw_residual(self, minuit=None, bins=100, ax=None, bound=None,             # <<<<<<<<<<<<<<
  *                       parmloc=(0.05,0.95), print_par=False, args=None, errors=None,
  *                       show_errbars=True, errbar_algo='normal', norm=False):
@@ -4538,7 +4538,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_10UnbinnedLH_7draw_residual(PyObjec
     values[3] = ((PyObject *)Py_None);
 
     /* "probfit/costfunc.pyx":274
- * 
+ *
  *     def draw_residual(self, minuit=None, bins=100, ax=None, bound=None,
  *                       parmloc=(0.05,0.95), print_par=False, args=None, errors=None,             # <<<<<<<<<<<<<<
  *                       show_errbars=True, errbar_algo='normal', norm=False):
@@ -4679,7 +4679,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_10UnbinnedLH_7draw_residual(PyObjec
 
   /* "probfit/costfunc.pyx":273
  *             no_plot=no_plot)
- * 
+ *
  *     def draw_residual(self, minuit=None, bins=100, ax=None, bound=None,             # <<<<<<<<<<<<<<
  *                       parmloc=(0.05,0.95), print_par=False, args=None, errors=None,
  *                       show_errbars=True, errbar_algo='normal', norm=False):
@@ -4703,7 +4703,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_6draw_residual(struct 
   __Pyx_RefNannySetupContext("draw_residual", 0);
 
   /* "probfit/costfunc.pyx":319
- * 
+ *
  *         """
  *         return plotting.draw_residual_ulh(self, minuit=minuit, bins=bins, ax=ax,             # <<<<<<<<<<<<<<
  *                    bound=bound, parmloc=parmloc, print_par=print_par, args=args,
@@ -4743,7 +4743,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_6draw_residual(struct 
  *                    bound=bound, parmloc=parmloc, print_par=print_par, args=args,
  *                    errors=errors, show_errbars=show_errbars,             # <<<<<<<<<<<<<<
  *                    errbar_algo=errbar_algo, norm=norm)
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_errors, __pyx_v_errors) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 319; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_show_errbars, __pyx_v_show_errbars) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 319; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -4752,14 +4752,14 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_6draw_residual(struct 
  *                    bound=bound, parmloc=parmloc, print_par=print_par, args=args,
  *                    errors=errors, show_errbars=show_errbars,
  *                    errbar_algo=errbar_algo, norm=norm)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def default_errordef(self):
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_errbar_algo, __pyx_v_errbar_algo) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 319; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_norm, __pyx_v_norm) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 319; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "probfit/costfunc.pyx":319
- * 
+ *
  *         """
  *         return plotting.draw_residual_ulh(self, minuit=minuit, bins=bins, ax=ax,             # <<<<<<<<<<<<<<
  *                    bound=bound, parmloc=parmloc, print_par=print_par, args=args,
@@ -4776,7 +4776,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_6draw_residual(struct 
 
   /* "probfit/costfunc.pyx":273
  *             no_plot=no_plot)
- * 
+ *
  *     def draw_residual(self, minuit=None, bins=100, ax=None, bound=None,             # <<<<<<<<<<<<<<
  *                       parmloc=(0.05,0.95), print_par=False, args=None, errors=None,
  *                       show_errbars=True, errbar_algo='normal', norm=False):
@@ -4798,10 +4798,10 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_6draw_residual(struct 
 
 /* "probfit/costfunc.pyx":324
  *                    errbar_algo=errbar_algo, norm=norm)
- * 
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 0.5
- * 
+ *
  */
 
 /* Python wrapper */
@@ -4824,11 +4824,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_8default_errordef(CYTH
   __Pyx_RefNannySetupContext("default_errordef", 0);
 
   /* "probfit/costfunc.pyx":325
- * 
+ *
  *     def default_errordef(self):
  *         return 0.5             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_float_0_5);
@@ -4837,10 +4837,10 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_8default_errordef(CYTH
 
   /* "probfit/costfunc.pyx":324
  *                    errbar_algo=errbar_algo, norm=norm)
- * 
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 0.5
- * 
+ *
  */
 
   /* function exit code */
@@ -4851,8 +4851,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_8default_errordef(CYTH
 }
 
 /* "probfit/costfunc.pyx":328
- * 
- * 
+ *
+ *
  *     def show(self,*arg,**kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -4896,7 +4896,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_10show(struct __pyx_ob
   __Pyx_RefNannySetupContext("show", 0);
 
   /* "probfit/costfunc.pyx":336
- * 
+ *
  *         """
  *         ret = self.draw(*arg,**kwd)             # <<<<<<<<<<<<<<
  *         plt.show()
@@ -4921,7 +4921,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_10show(struct __pyx_ob
  *         ret = self.draw(*arg,**kwd)
  *         plt.show()             # <<<<<<<<<<<<<<
  *         return ret
- * 
+ *
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_plt); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 337; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -4937,8 +4937,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_10show(struct __pyx_ob
  *         ret = self.draw(*arg,**kwd)
  *         plt.show()
  *         return ret             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_v_ret);
@@ -4946,8 +4946,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_10show(struct __pyx_ob
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":328
- * 
- * 
+ *
+ *
  *     def show(self,*arg,**kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -4969,7 +4969,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10UnbinnedLH_10show(struct __pyx_ob
 }
 
 /* "probfit/costfunc.pyx":127
- * 
+ *
  * cdef class UnbinnedLH:
  *     cdef readonly object f             # <<<<<<<<<<<<<<
  *     cdef readonly object weights
@@ -5619,7 +5619,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
   __Pyx_INCREF(__pyx_v_bound);
 
   /* "probfit/costfunc.pyx":457
- * 
+ *
  *         """
  *         self.f = f             # <<<<<<<<<<<<<<
  *         self.func_code = FakeFuncCode(f, dock=True)
@@ -5664,7 +5664,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
  *         self.func_code = FakeFuncCode(f, dock=True)
  *         self.use_w2 = use_w2             # <<<<<<<<<<<<<<
  *         self.extended = extended
- * 
+ *
  */
   __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_use_w2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 459; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->use_w2 = __pyx_t_5;
@@ -5673,7 +5673,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
  *         self.func_code = FakeFuncCode(f, dock=True)
  *         self.use_w2 = use_w2
  *         self.extended = extended             # <<<<<<<<<<<<<<
- * 
+ *
  *         if bound is None: bound = minmax(data)
  */
   __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_v_extended); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 460; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -5681,9 +5681,9 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":462
  *         self.extended = extended
- * 
+ *
  *         if bound is None: bound = minmax(data)             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.mymin, self.mymax = bound
  */
   __pyx_t_5 = (__pyx_v_bound == Py_None);
@@ -5708,9 +5708,9 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":464
  *         if bound is None: bound = minmax(data)
- * 
+ *
  *         self.mymin, self.mymax = bound             # <<<<<<<<<<<<<<
- * 
+ *
  *         h, self.edges = np.histogram(data, bins, range=bound, weights=weights)
  */
   if ((likely(PyTuple_CheckExact(__pyx_v_bound))) || (PyList_CheckExact(__pyx_v_bound))) {
@@ -5727,11 +5727,11 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
     }
     #if CYTHON_COMPILING_IN_CPYTHON
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
     } else {
-      __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
     }
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_t_3);
@@ -5770,9 +5770,9 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":466
  *         self.mymin, self.mymax = bound
- * 
+ *
  *         h, self.edges = np.histogram(data, bins, range=bound, weights=weights)             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.h = float2double(h)
  */
   __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 466; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -5811,11 +5811,11 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
     }
     #if CYTHON_COMPILING_IN_CPYTHON
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
     } else {
-      __pyx_t_4 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_4 = PyList_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
     }
     __Pyx_INCREF(__pyx_t_4);
     __Pyx_INCREF(__pyx_t_3);
@@ -5858,10 +5858,10 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":468
  *         h, self.edges = np.histogram(data, bins, range=bound, weights=weights)
- * 
+ *
  *         self.h = float2double(h)             # <<<<<<<<<<<<<<
  *         self.N = csum(self.h)
- * 
+ *
  */
   __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_float2double); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 468; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -5882,10 +5882,10 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
   __pyx_t_4 = 0;
 
   /* "probfit/costfunc.pyx":469
- * 
+ *
  *         self.h = float2double(h)
  *         self.N = csum(self.h)             # <<<<<<<<<<<<<<
- * 
+ *
  *         if weights is not None:
  */
   __pyx_t_4 = ((PyObject *)__pyx_v_self->h);
@@ -5895,7 +5895,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":471
  *         self.N = csum(self.h)
- * 
+ *
  *         if weights is not None:             # <<<<<<<<<<<<<<
  *             if weighterrors is None:
  *                 self.w2,_ = np.histogram(data, bins, range=bound,
@@ -5905,7 +5905,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
   if (__pyx_t_5) {
 
     /* "probfit/costfunc.pyx":472
- * 
+ *
  *         if weights is not None:
  *             if weighterrors is None:             # <<<<<<<<<<<<<<
  *                 self.w2,_ = np.histogram(data, bins, range=bound,
@@ -5977,11 +5977,11 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
         }
         #if CYTHON_COMPILING_IN_CPYTHON
         if (likely(PyTuple_CheckExact(sequence))) {
-          __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0); 
-          __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1); 
+          __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0);
+          __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1);
         } else {
-          __pyx_t_1 = PyList_GET_ITEM(sequence, 0); 
-          __pyx_t_4 = PyList_GET_ITEM(sequence, 1); 
+          __pyx_t_1 = PyList_GET_ITEM(sequence, 0);
+          __pyx_t_4 = PyList_GET_ITEM(sequence, 1);
         }
         __Pyx_INCREF(__pyx_t_1);
         __Pyx_INCREF(__pyx_t_4);
@@ -6087,11 +6087,11 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
         }
         #if CYTHON_COMPILING_IN_CPYTHON
         if (likely(PyTuple_CheckExact(sequence))) {
-          __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0); 
-          __pyx_t_2 = PyTuple_GET_ITEM(sequence, 1); 
+          __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0);
+          __pyx_t_2 = PyTuple_GET_ITEM(sequence, 1);
         } else {
-          __pyx_t_1 = PyList_GET_ITEM(sequence, 0); 
-          __pyx_t_2 = PyList_GET_ITEM(sequence, 1); 
+          __pyx_t_1 = PyList_GET_ITEM(sequence, 0);
+          __pyx_t_2 = PyList_GET_ITEM(sequence, 1);
         }
         __Pyx_INCREF(__pyx_t_1);
         __Pyx_INCREF(__pyx_t_2);
@@ -6141,7 +6141,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
  *                                          weights=weighterrors*weighterrors )
  *         else:
  *             self.w2,_ = np.histogram(data, bins, range=bound, weights=None)             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.w2 = float2double(self.w2)
  */
     __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 479; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -6180,11 +6180,11 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
       }
       #if CYTHON_COMPILING_IN_CPYTHON
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_1 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_1 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_1 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(__pyx_t_3);
@@ -6229,7 +6229,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":481
  *             self.w2,_ = np.histogram(data, bins, range=bound, weights=None)
- * 
+ *
  *         self.w2 = float2double(self.w2)             # <<<<<<<<<<<<<<
  *         self.midpoints = mid(self.edges)
  *         self.binwidth = np.diff(self.edges)
@@ -6253,11 +6253,11 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
   __pyx_t_1 = 0;
 
   /* "probfit/costfunc.pyx":482
- * 
+ *
  *         self.w2 = float2double(self.w2)
  *         self.midpoints = mid(self.edges)             # <<<<<<<<<<<<<<
  *         self.binwidth = np.diff(self.edges)
- * 
+ *
  */
   __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_mid); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 482; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -6281,7 +6281,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
  *         self.w2 = float2double(self.w2)
  *         self.midpoints = mid(self.edges)
  *         self.binwidth = np.diff(self.edges)             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.bins = bins
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 483; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -6307,7 +6307,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":485
  *         self.binwidth = np.diff(self.edges)
- * 
+ *
  *         self.bins = bins             # <<<<<<<<<<<<<<
  *         self.badvalue = badvalue
  *         self.ndof = self.bins-(self.func_code.co_argcount-1)
@@ -6316,11 +6316,11 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
   __pyx_v_self->bins = __pyx_t_10;
 
   /* "probfit/costfunc.pyx":486
- * 
+ *
  *         self.bins = bins
  *         self.badvalue = badvalue             # <<<<<<<<<<<<<<
  *         self.ndof = self.bins-(self.func_code.co_argcount-1)
- * 
+ *
  */
   __pyx_t_9 = __pyx_PyFloat_AsDouble(__pyx_v_badvalue); if (unlikely((__pyx_t_9 == (double)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 486; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->badvalue = __pyx_t_9;
@@ -6329,7 +6329,7 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
  *         self.bins = bins
  *         self.badvalue = badvalue
  *         self.ndof = self.bins-(self.func_code.co_argcount-1)             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.nint_subdiv = nint_subdiv
  */
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->bins); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 487; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -6349,10 +6349,10 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 
   /* "probfit/costfunc.pyx":489
  *         self.ndof = self.bins-(self.func_code.co_argcount-1)
- * 
+ *
  *         self.nint_subdiv = nint_subdiv             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_nint_subdiv); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 489; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->nint_subdiv = __pyx_t_10;
@@ -6384,8 +6384,8 @@ static int __pyx_pf_7probfit_8costfunc_8BinnedLH___init__(struct __pyx_obj_7prob
 }
 
 /* "probfit/costfunc.pyx":492
- * 
- * 
+ *
+ *
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
  *         Calculate sum -log(poisson binned likelihood) given positional
@@ -6498,8 +6498,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_2__call__(struct __pyx_ob
  *                                 self.extended, self.use_w2,
  *                                 self.nint_subdiv)
  *         return ret             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_4 = PyFloat_FromDouble(__pyx_v_ret); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 506; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -6509,8 +6509,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_2__call__(struct __pyx_ob
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":492
- * 
- * 
+ *
+ *
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
  *         Calculate sum -log(poisson binned likelihood) given positional
@@ -6531,8 +6531,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_2__call__(struct __pyx_ob
 }
 
 /* "probfit/costfunc.pyx":509
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax = None,             # <<<<<<<<<<<<<<
  *             parmloc=(0.05,0.95), nfbins=200, print_par=True,
  *             args=None, errors=None, parts=False, no_plot=False):
@@ -6540,7 +6540,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_2__call__(struct __pyx_ob
 
 /* Python wrapper */
 static PyObject *__pyx_pw_7probfit_8costfunc_8BinnedLH_5draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_7probfit_8costfunc_8BinnedLH_4draw[] = "BinnedLH.draw(self, minuit=None, ax=None, parmloc=(0.05, 0.95), nfbins=200, print_par=True, args=None, errors=None, parts=False, no_plot=False)\n\n        Draw comparison between histogram of data and pdf.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **nfbins** how many point pdf should be evaluated. Default 200.\n\n            - **print_par** print parameters and error on the plot.\n              Default True.\n\n            - **no_plot** Set this to True if you only want the return value\n\n        **Returns**\n        \n        ((data_edges, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)\n\n        ";
+static char __pyx_doc_7probfit_8costfunc_8BinnedLH_4draw[] = "BinnedLH.draw(self, minuit=None, ax=None, parmloc=(0.05, 0.95), nfbins=200, print_par=True, args=None, errors=None, parts=False, no_plot=False)\n\n        Draw comparison between histogram of data and pdf.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **nfbins** how many point pdf should be evaluated. Default 200.\n\n            - **print_par** print parameters and error on the plot.\n              Default True.\n\n            - **no_plot** Set this to True if you only want the return value\n\n        **Returns**\n        \n        ((data_edges, data_y), error, (total_pdf_x, total_pdf_y), parts)\n\n        ";
 static PyObject *__pyx_pw_7probfit_8costfunc_8BinnedLH_5draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_minuit = 0;
   PyObject *__pyx_v_ax = 0;
@@ -6564,7 +6564,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_8BinnedLH_5draw(PyObject *__pyx_v_s
     values[1] = ((PyObject *)Py_None);
 
     /* "probfit/costfunc.pyx":510
- * 
+ *
  *     def draw(self, minuit=None, ax = None,
  *             parmloc=(0.05,0.95), nfbins=200, print_par=True,             # <<<<<<<<<<<<<<
  *             args=None, errors=None, parts=False, no_plot=False):
@@ -6688,8 +6688,8 @@ static PyObject *__pyx_pw_7probfit_8costfunc_8BinnedLH_5draw(PyObject *__pyx_v_s
   __pyx_r = __pyx_pf_7probfit_8costfunc_8BinnedLH_4draw(((struct __pyx_obj_7probfit_8costfunc_BinnedLH *)__pyx_v_self), __pyx_v_minuit, __pyx_v_ax, __pyx_v_parmloc, __pyx_v_nfbins, __pyx_v_print_par, __pyx_v_args, __pyx_v_errors, __pyx_v_parts, __pyx_v_no_plot);
 
   /* "probfit/costfunc.pyx":509
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax = None,             # <<<<<<<<<<<<<<
  *             parmloc=(0.05,0.95), nfbins=200, print_par=True,
  *             args=None, errors=None, parts=False, no_plot=False):
@@ -6713,7 +6713,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_4draw(struct __pyx_obj_7p
   __Pyx_RefNannySetupContext("draw", 0);
 
   /* "probfit/costfunc.pyx":541
- * 
+ *
  *         """
  *         return plotting.draw_blh(self, minuit=minuit,             # <<<<<<<<<<<<<<
  *             ax=ax, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
@@ -6739,7 +6739,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_4draw(struct __pyx_obj_7p
  *         return plotting.draw_blh(self, minuit=minuit,
  *             ax=ax, parmloc=parmloc, nfbins=nfbins, print_par=print_par,             # <<<<<<<<<<<<<<
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_ax, __pyx_v_ax) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_parmloc, __pyx_v_parmloc) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -6750,7 +6750,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_4draw(struct __pyx_obj_7p
  *         return plotting.draw_blh(self, minuit=minuit,
  *             ax=ax, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_args, __pyx_v_args) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -6759,7 +6759,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_4draw(struct __pyx_obj_7p
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_no_plot, __pyx_v_no_plot) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 541; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "probfit/costfunc.pyx":541
- * 
+ *
  *         """
  *         return plotting.draw_blh(self, minuit=minuit,             # <<<<<<<<<<<<<<
  *             ax=ax, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
@@ -6775,8 +6775,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_4draw(struct __pyx_obj_7p
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":509
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax = None,             # <<<<<<<<<<<<<<
  *             parmloc=(0.05,0.95), nfbins=200, print_par=True,
  *             args=None, errors=None, parts=False, no_plot=False):
@@ -6798,7 +6798,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_4draw(struct __pyx_obj_7p
 
 /* "probfit/costfunc.pyx":545
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)
- * 
+ *
  *     def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),             # <<<<<<<<<<<<<<
  *                       print_par=False, args=None, errors=None, norm=False):
  *         """
@@ -6829,7 +6829,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_8BinnedLH_7draw_residual(PyObject *
     values[2] = ((PyObject *)__pyx_tuple__4);
 
     /* "probfit/costfunc.pyx":546
- * 
+ *
  *     def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),
  *                       print_par=False, args=None, errors=None, norm=False):             # <<<<<<<<<<<<<<
  *         """
@@ -6927,7 +6927,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_8BinnedLH_7draw_residual(PyObject *
 
   /* "probfit/costfunc.pyx":545
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)
- * 
+ *
  *     def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),             # <<<<<<<<<<<<<<
  *                       print_par=False, args=None, errors=None, norm=False):
  *         """
@@ -6977,7 +6977,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_6draw_residual(struct __p
  *         return plotting.draw_residual_blh(self, minuit=minuit,
  *             ax=ax, parmloc=parmloc, print_par=print_par,             # <<<<<<<<<<<<<<
  *             args=args, errors=errors, norm=norm)
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_ax, __pyx_v_ax) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 570; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_parmloc, __pyx_v_parmloc) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 570; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -6987,7 +6987,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_6draw_residual(struct __p
  *         return plotting.draw_residual_blh(self, minuit=minuit,
  *             ax=ax, parmloc=parmloc, print_par=print_par,
  *             args=args, errors=errors, norm=norm)             # <<<<<<<<<<<<<<
- * 
+ *
  *     def default_errordef(self):
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_args, __pyx_v_args) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 570; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -7012,7 +7012,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_6draw_residual(struct __p
 
   /* "probfit/costfunc.pyx":545
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)
- * 
+ *
  *     def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),             # <<<<<<<<<<<<<<
  *                       print_par=False, args=None, errors=None, norm=False):
  *         """
@@ -7034,10 +7034,10 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_6draw_residual(struct __p
 
 /* "probfit/costfunc.pyx":574
  *             args=args, errors=errors, norm=norm)
- * 
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 0.5
- * 
+ *
  */
 
 /* Python wrapper */
@@ -7060,11 +7060,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_8default_errordef(CYTHON_
   __Pyx_RefNannySetupContext("default_errordef", 0);
 
   /* "probfit/costfunc.pyx":575
- * 
+ *
  *     def default_errordef(self):
  *         return 0.5             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_float_0_5);
@@ -7073,10 +7073,10 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_8default_errordef(CYTHON_
 
   /* "probfit/costfunc.pyx":574
  *             args=args, errors=errors, norm=norm)
- * 
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 0.5
- * 
+ *
  */
 
   /* function exit code */
@@ -7087,8 +7087,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_8default_errordef(CYTHON_
 }
 
 /* "probfit/costfunc.pyx":578
- * 
- * 
+ *
+ *
  *     def show(self,*arg,**kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -7132,7 +7132,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_10show(struct __pyx_obj_7
   __Pyx_RefNannySetupContext("show", 0);
 
   /* "probfit/costfunc.pyx":586
- * 
+ *
  *         """
  *         ret = self.draw(*arg,**kwd)             # <<<<<<<<<<<<<<
  *         plt.show()
@@ -7157,7 +7157,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_10show(struct __pyx_obj_7
  *         ret = self.draw(*arg,**kwd)
  *         plt.show()             # <<<<<<<<<<<<<<
  *         return ret
- * 
+ *
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_plt); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 587; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -7173,7 +7173,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_10show(struct __pyx_obj_7
  *         ret = self.draw(*arg,**kwd)
  *         plt.show()
  *         return ret             # <<<<<<<<<<<<<<
- * 
+ *
  * #fit a line with given function using minimizing chi2
  */
   __Pyx_XDECREF(__pyx_r);
@@ -7182,8 +7182,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_10show(struct __pyx_obj_7
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":578
- * 
- * 
+ *
+ *
  *     def show(self,*arg,**kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -7205,7 +7205,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_10show(struct __pyx_obj_7
 }
 
 /* "probfit/costfunc.pyx":342
- * 
+ *
  * cdef class BinnedLH:
  *     cdef readonly object f             # <<<<<<<<<<<<<<
  *     cdef readonly object vf
@@ -7951,8 +7951,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_8BinnedLH_6use_w2___get__(struct __
 }
 
 /* "probfit/costfunc.pyx":604
- * 
- * 
+ *
+ *
  *     def __init__(self, f, x, y, error=None, weights=None):             # <<<<<<<<<<<<<<
  *         """
  *         __init__(self, f, x, y, error=None, weights=None):
@@ -8211,7 +8211,7 @@ static int __pyx_pf_7probfit_8costfunc_14Chi2Regression___init__(struct __pyx_ob
  *         self.y = float2double(y)
  *         self.data_len = len(x)             # <<<<<<<<<<<<<<
  *         self.ndof = self.data_len-len(describe(self))
- * 
+ *
  */
   __pyx_t_5 = PyObject_Length(__pyx_v_x); if (unlikely(__pyx_t_5 == -1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 636; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_v_self->data_len = __pyx_t_5;
@@ -8220,8 +8220,8 @@ static int __pyx_pf_7probfit_8costfunc_14Chi2Regression___init__(struct __pyx_ob
  *         self.y = float2double(y)
  *         self.data_len = len(x)
  *         self.ndof = self.data_len-len(describe(self))             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_describe); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 637; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -8239,8 +8239,8 @@ static int __pyx_pf_7probfit_8costfunc_14Chi2Regression___init__(struct __pyx_ob
   __pyx_v_self->ndof = (__pyx_v_self->data_len - __pyx_t_5);
 
   /* "probfit/costfunc.pyx":604
- * 
- * 
+ *
+ *
  *     def __init__(self, f, x, y, error=None, weights=None):             # <<<<<<<<<<<<<<
  *         """
  *         __init__(self, f, x, y, error=None, weights=None):
@@ -8262,8 +8262,8 @@ static int __pyx_pf_7probfit_8costfunc_14Chi2Regression___init__(struct __pyx_ob
 }
 
 /* "probfit/costfunc.pyx":640
- * 
- * 
+ *
+ *
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
  *         Compute :math:`\chi^2`
@@ -8323,7 +8323,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_2__call__(struct _
  *         self.last_arg = arg
  *         return compute_chi2_f(self.f, self.x, self.y, self.error,             # <<<<<<<<<<<<<<
  *                               self.weights, arg)
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __pyx_v_self->f;
@@ -8340,8 +8340,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_2__call__(struct _
  *         self.last_arg = arg
  *         return compute_chi2_f(self.f, self.x, self.y, self.error,
  *                               self.weights, arg)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   if (!(likely(((__pyx_v_self->weights) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_self->weights, __pyx_ptype_5numpy_ndarray))))) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 646; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_t_5 = __pyx_v_self->weights;
@@ -8352,7 +8352,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_2__call__(struct _
  *         self.last_arg = arg
  *         return compute_chi2_f(self.f, self.x, self.y, self.error,             # <<<<<<<<<<<<<<
  *                               self.weights, arg)
- * 
+ *
  */
   __pyx_t_6 = __pyx_f_7probfit_8_libstat_compute_chi2_f(__pyx_t_1, ((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)__pyx_t_5), __pyx_v_arg, 0); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 645; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -8367,8 +8367,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_2__call__(struct _
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":640
- * 
- * 
+ *
+ *
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
  *         Compute :math:`\chi^2`
@@ -8390,11 +8390,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_2__call__(struct _
 }
 
 /* "probfit/costfunc.pyx":649
- * 
- * 
+ *
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 1.0
- * 
+ *
  */
 
 /* Python wrapper */
@@ -8417,11 +8417,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_4default_errordef(
   __Pyx_RefNannySetupContext("default_errordef", 0);
 
   /* "probfit/costfunc.pyx":650
- * 
+ *
  *     def default_errordef(self):
  *         return 1.0             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_float_1_0);
@@ -8429,11 +8429,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_4default_errordef(
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":649
- * 
- * 
+ *
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 1.0
- * 
+ *
  */
 
   /* function exit code */
@@ -8444,8 +8444,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_4default_errordef(
 }
 
 /* "probfit/costfunc.pyx":653
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax=None, parmloc=(0.05,0.95), print_par=True,             # <<<<<<<<<<<<<<
  *              args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -8453,7 +8453,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_4default_errordef(
 
 /* Python wrapper */
 static PyObject *__pyx_pw_7probfit_8costfunc_14Chi2Regression_7draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_7probfit_8costfunc_14Chi2Regression_6draw[] = "Chi2Regression.draw(self, minuit=None, ax=None, parmloc=(0.05, 0.95), print_par=True, args=None, errors=None, parts=False, no_plot=False)\n\n        Draw comparison between points (**x**,**y**) and the function **f**.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **print_par** print parameters and error on the plot.\n              Default True.\n\n            - **parts** draw components of PDF. Default False.\n\n            - **no_plot** Set this to true if you only want the return value\n\n        **Returns**\n        \n        ((data_x, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)\n        ";
+static char __pyx_doc_7probfit_8costfunc_14Chi2Regression_6draw[] = "Chi2Regression.draw(self, minuit=None, ax=None, parmloc=(0.05, 0.95), print_par=True, args=None, errors=None, parts=False, no_plot=False)\n\n        Draw comparison between points (**x**,**y**) and the function **f**.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **print_par** print parameters and error on the plot.\n              Default True.\n\n            - **parts** draw components of PDF. Default False.\n\n            - **no_plot** Set this to true if you only want the return value\n\n        **Returns**\n        \n        ((data_x, data_y), error, (total_pdf_x, total_pdf_y), parts)\n        ";
 static PyObject *__pyx_pw_7probfit_8costfunc_14Chi2Regression_7draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_minuit = 0;
   PyObject *__pyx_v_ax = 0;
@@ -8478,7 +8478,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_14Chi2Regression_7draw(PyObject *__
     values[3] = ((PyObject *)Py_True);
 
     /* "probfit/costfunc.pyx":654
- * 
+ *
  *     def draw(self, minuit=None, ax=None, parmloc=(0.05,0.95), print_par=True,
  *              args=None, errors=None, parts=False, no_plot=False):             # <<<<<<<<<<<<<<
  *         """
@@ -8583,8 +8583,8 @@ static PyObject *__pyx_pw_7probfit_8costfunc_14Chi2Regression_7draw(PyObject *__
   __pyx_r = __pyx_pf_7probfit_8costfunc_14Chi2Regression_6draw(((struct __pyx_obj_7probfit_8costfunc_Chi2Regression *)__pyx_v_self), __pyx_v_minuit, __pyx_v_ax, __pyx_v_parmloc, __pyx_v_print_par, __pyx_v_args, __pyx_v_errors, __pyx_v_parts, __pyx_v_no_plot);
 
   /* "probfit/costfunc.pyx":653
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax=None, parmloc=(0.05,0.95), print_par=True,             # <<<<<<<<<<<<<<
  *              args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -8608,7 +8608,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_6draw(struct __pyx
   __Pyx_RefNannySetupContext("draw", 0);
 
   /* "probfit/costfunc.pyx":683
- *         ((data_x, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+ *         ((data_x, data_y), error, (total_pdf_x, total_pdf_y), parts)
  *         """
  *         return plotting.draw_x2(self, minuit=minuit, ax=ax, parmloc=parmloc,             # <<<<<<<<<<<<<<
  *                 print_par=print_par, args=args, errors=errors, parts=parts,
@@ -8636,7 +8636,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_6draw(struct __pyx
  *         return plotting.draw_x2(self, minuit=minuit, ax=ax, parmloc=parmloc,
  *                 print_par=print_par, args=args, errors=errors, parts=parts,             # <<<<<<<<<<<<<<
  *                 no_plot=no_plot)
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_print_par, __pyx_v_print_par) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_args, __pyx_v_args) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -8647,13 +8647,13 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_6draw(struct __pyx
  *         return plotting.draw_x2(self, minuit=minuit, ax=ax, parmloc=parmloc,
  *                 print_par=print_par, args=args, errors=errors, parts=parts,
  *                 no_plot=no_plot)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_no_plot, __pyx_v_no_plot) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 683; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "probfit/costfunc.pyx":683
- *         ((data_x, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+ *         ((data_x, data_y), error, (total_pdf_x, total_pdf_y), parts)
  *         """
  *         return plotting.draw_x2(self, minuit=minuit, ax=ax, parmloc=parmloc,             # <<<<<<<<<<<<<<
  *                 print_par=print_par, args=args, errors=errors, parts=parts,
@@ -8669,8 +8669,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_6draw(struct __pyx
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":653
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax=None, parmloc=(0.05,0.95), print_par=True,             # <<<<<<<<<<<<<<
  *              args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -8691,8 +8691,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_6draw(struct __pyx
 }
 
 /* "probfit/costfunc.pyx":688
- * 
- * 
+ *
+ *
  *     def show(self,*arg, **kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -8736,7 +8736,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_8show(struct __pyx
   __Pyx_RefNannySetupContext("show", 0);
 
   /* "probfit/costfunc.pyx":696
- * 
+ *
  *         """
  *         ret = self.draw(*arg, **kwd)             # <<<<<<<<<<<<<<
  *         plt.show()
@@ -8761,7 +8761,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_8show(struct __pyx
  *         ret = self.draw(*arg, **kwd)
  *         plt.show()             # <<<<<<<<<<<<<<
  *         return ret
- * 
+ *
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_plt); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 697; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -8777,7 +8777,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_8show(struct __pyx
  *         ret = self.draw(*arg, **kwd)
  *         plt.show()
  *         return ret             # <<<<<<<<<<<<<<
- * 
+ *
  *     def draw_residual(self, minuit=None, ax=None, args=None, errors=None, grid=True,
  */
   __Pyx_XDECREF(__pyx_r);
@@ -8786,8 +8786,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_8show(struct __pyx
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":688
- * 
- * 
+ *
+ *
  *     def show(self,*arg, **kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -8810,7 +8810,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_8show(struct __pyx
 
 /* "probfit/costfunc.pyx":700
  *         return ret
- * 
+ *
  *     def draw_residual(self, minuit=None, ax=None, args=None, errors=None, grid=True,             # <<<<<<<<<<<<<<
  *                       norm=False):
  *         plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,
@@ -8842,7 +8842,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_14Chi2Regression_11draw_residual(Py
     values[4] = ((PyObject *)Py_True);
 
     /* "probfit/costfunc.pyx":701
- * 
+ *
  *     def draw_residual(self, minuit=None, ax=None, args=None, errors=None, grid=True,
  *                       norm=False):             # <<<<<<<<<<<<<<
  *         plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,
@@ -8929,7 +8929,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_14Chi2Regression_11draw_residual(Py
 
   /* "probfit/costfunc.pyx":700
  *         return ret
- * 
+ *
  *     def draw_residual(self, minuit=None, ax=None, args=None, errors=None, grid=True,             # <<<<<<<<<<<<<<
  *                       norm=False):
  *         plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,
@@ -8957,7 +8957,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_10draw_residual(st
  *                       norm=False):
  *         plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,             # <<<<<<<<<<<<<<
  *                                    grid=grid, norm=norm)
- * 
+ *
  */
   __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_plotting); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 702; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -8980,8 +8980,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_10draw_residual(st
  *                       norm=False):
  *         plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,
  *                                    grid=grid, norm=norm)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_grid, __pyx_v_grid) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 702; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_norm, __pyx_v_norm) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 702; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -8991,7 +8991,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_10draw_residual(st
  *                       norm=False):
  *         plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,             # <<<<<<<<<<<<<<
  *                                    grid=grid, norm=norm)
- * 
+ *
  */
   __pyx_t_4 = PyObject_Call(__pyx_t_2, __pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 702; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -9002,7 +9002,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_10draw_residual(st
 
   /* "probfit/costfunc.pyx":700
  *         return ret
- * 
+ *
  *     def draw_residual(self, minuit=None, ax=None, args=None, errors=None, grid=True,             # <<<<<<<<<<<<<<
  *                       norm=False):
  *         plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,
@@ -9355,7 +9355,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_1x___get__(struct 
  *     cdef readonly np.ndarray x
  *     cdef readonly np.ndarray y             # <<<<<<<<<<<<<<
  *     cdef readonly tuple last_arg
- * 
+ *
  */
 
 /* Python wrapper */
@@ -9391,8 +9391,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_14Chi2Regression_1y___get__(struct 
  *     cdef readonly np.ndarray x
  *     cdef readonly np.ndarray y
  *     cdef readonly tuple last_arg             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
 
 /* Python wrapper */
@@ -9647,7 +9647,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
  *         if bound is None:
  *             bound = minmax(data)             # <<<<<<<<<<<<<<
  *         self.mymin,self.mymax = bound
- * 
+ *
  */
     __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_minmax); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 769; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
@@ -9670,7 +9670,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
  *         if bound is None:
  *             bound = minmax(data)
  *         self.mymin,self.mymax = bound             # <<<<<<<<<<<<<<
- * 
+ *
  *         h, self.edges = np.histogram(data,bins,range=bound,weights=weights)
  */
   if ((likely(PyTuple_CheckExact(__pyx_v_bound))) || (PyList_CheckExact(__pyx_v_bound))) {
@@ -9687,11 +9687,11 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
     }
     #if CYTHON_COMPILING_IN_CPYTHON
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
     } else {
-      __pyx_t_2 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_2 = PyList_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
     }
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_INCREF(__pyx_t_3);
@@ -9730,9 +9730,9 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
 
   /* "probfit/costfunc.pyx":772
  *         self.mymin,self.mymax = bound
- * 
+ *
  *         h, self.edges = np.histogram(data,bins,range=bound,weights=weights)             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.h = float2double(h)
  */
   __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 772; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -9771,11 +9771,11 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
     }
     #if CYTHON_COMPILING_IN_CPYTHON
     if (likely(PyTuple_CheckExact(sequence))) {
-      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 1);
     } else {
-      __pyx_t_4 = PyList_GET_ITEM(sequence, 0); 
-      __pyx_t_3 = PyList_GET_ITEM(sequence, 1); 
+      __pyx_t_4 = PyList_GET_ITEM(sequence, 0);
+      __pyx_t_3 = PyList_GET_ITEM(sequence, 1);
     }
     __Pyx_INCREF(__pyx_t_4);
     __Pyx_INCREF(__pyx_t_3);
@@ -9818,7 +9818,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
 
   /* "probfit/costfunc.pyx":774
  *         h, self.edges = np.histogram(data,bins,range=bound,weights=weights)
- * 
+ *
  *         self.h = float2double(h)             # <<<<<<<<<<<<<<
  *         self.midpoints = mid(self.edges)
  *         self.binwidth = np.diff(self.edges)
@@ -9842,11 +9842,11 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
   __pyx_t_4 = 0;
 
   /* "probfit/costfunc.pyx":775
- * 
+ *
  *         self.h = float2double(h)
  *         self.midpoints = mid(self.edges)             # <<<<<<<<<<<<<<
  *         self.binwidth = np.diff(self.edges)
- * 
+ *
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_mid); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 775; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -9870,7 +9870,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
  *         self.h = float2double(h)
  *         self.midpoints = mid(self.edges)
  *         self.binwidth = np.diff(self.edges)             # <<<<<<<<<<<<<<
- * 
+ *
  *         #sumw2 if requested
  */
   __pyx_t_1 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 776; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -9895,7 +9895,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
   __pyx_t_4 = 0;
 
   /* "probfit/costfunc.pyx":779
- * 
+ *
  *         #sumw2 if requested
  *         if weights is not None and sumw2:             # <<<<<<<<<<<<<<
  *             w2 = weights*weights
@@ -9965,11 +9965,11 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
       }
       #if CYTHON_COMPILING_IN_CPYTHON
       if (likely(PyTuple_CheckExact(sequence))) {
-        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-        __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0);
+        __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1);
       } else {
-        __pyx_t_3 = PyList_GET_ITEM(sequence, 0); 
-        __pyx_t_4 = PyList_GET_ITEM(sequence, 1); 
+        __pyx_t_3 = PyList_GET_ITEM(sequence, 0);
+        __pyx_t_4 = PyList_GET_ITEM(sequence, 1);
       }
       __Pyx_INCREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_t_4);
@@ -10041,7 +10041,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
  *             self.err = np.sqrt(sw2)
  *         else:
  *             self.err = np.sqrt(self.h)             # <<<<<<<<<<<<<<
- * 
+ *
  *         #check if error is too small
  */
     __pyx_t_3 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 784; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -10068,11 +10068,11 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
   __pyx_L8:;
 
   /* "probfit/costfunc.pyx":787
- * 
+ *
  *         #check if error is too small
  *         if np.any(self.err<1e-5):             # <<<<<<<<<<<<<<
  *             raise ValueError('some bins are too small to do a chi2 fit. change your range')
- * 
+ *
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_np); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 787; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -10097,7 +10097,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
  *         #check if error is too small
  *         if np.any(self.err<1e-5):
  *             raise ValueError('some bins are too small to do a chi2 fit. change your range')             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.bins = bins
  */
     __pyx_t_4 = PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 788; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -10109,7 +10109,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
 
   /* "probfit/costfunc.pyx":790
  *             raise ValueError('some bins are too small to do a chi2 fit. change your range')
- * 
+ *
  *         self.bins = bins             # <<<<<<<<<<<<<<
  *         self.ndof = self.bins-len(describe(self)) # fix this taking care of fixed parameter
  *         self.nint_subdiv = nint_subdiv
@@ -10118,11 +10118,11 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
   __pyx_v_self->bins = __pyx_t_11;
 
   /* "probfit/costfunc.pyx":791
- * 
+ *
  *         self.bins = bins
  *         self.ndof = self.bins-len(describe(self)) # fix this taking care of fixed parameter             # <<<<<<<<<<<<<<
  *         self.nint_subdiv = nint_subdiv
- * 
+ *
  */
   __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_describe); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -10143,7 +10143,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
  *         self.bins = bins
  *         self.ndof = self.bins-len(describe(self)) # fix this taking care of fixed parameter
  *         self.nint_subdiv = nint_subdiv             # <<<<<<<<<<<<<<
- * 
+ *
  *     #lazy mid point implementation
  */
   __pyx_t_11 = __Pyx_PyInt_As_int(__pyx_v_nint_subdiv); if (unlikely((__pyx_t_11 == (int)-1) && PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 792; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -10178,7 +10178,7 @@ static int __pyx_pf_7probfit_8costfunc_10BinnedChi2___init__(struct __pyx_obj_7p
 }
 
 /* "probfit/costfunc.pyx":795
- * 
+ *
  *     #lazy mid point implementation
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
@@ -10238,7 +10238,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_2__call__(struct __pyx
  *         self.last_arg = arg
  *         return compute_bin_chi2_f(self.f,  self.edges, self.h, self.err,             # <<<<<<<<<<<<<<
  *                                   None, arg, self.nint_subdiv)
- * 
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __pyx_t_1 = __pyx_v_self->f;
@@ -10254,8 +10254,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_2__call__(struct __pyx
  *         self.last_arg = arg
  *         return compute_bin_chi2_f(self.f,  self.edges, self.h, self.err,
  *                                   None, arg, self.nint_subdiv)             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_t_5 = __pyx_f_7probfit_8_libstat_compute_bin_chi2_f(__pyx_t_1, ((PyArrayObject *)__pyx_t_2), ((PyArrayObject *)__pyx_t_3), ((PyArrayObject *)__pyx_t_4), ((PyArrayObject *)Py_None), __pyx_v_arg, __pyx_v_self->nint_subdiv, 0); if (unlikely(PyErr_Occurred())) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 800; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10268,7 +10268,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_2__call__(struct __pyx
  *         self.last_arg = arg
  *         return compute_bin_chi2_f(self.f,  self.edges, self.h, self.err,             # <<<<<<<<<<<<<<
  *                                   None, arg, self.nint_subdiv)
- * 
+ *
  */
   __pyx_t_4 = PyFloat_FromDouble(__pyx_t_5); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 800; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_4);
@@ -10277,7 +10277,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_2__call__(struct __pyx
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":795
- * 
+ *
  *     #lazy mid point implementation
  *     def __call__(self,*arg):             # <<<<<<<<<<<<<<
  *         """
@@ -10299,8 +10299,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_2__call__(struct __pyx
 }
 
 /* "probfit/costfunc.pyx":804
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax = None, parmloc=(0.05,0.95), nfbins=200,             # <<<<<<<<<<<<<<
  *              print_par=True, args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -10308,7 +10308,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_2__call__(struct __pyx
 
 /* Python wrapper */
 static PyObject *__pyx_pw_7probfit_8costfunc_10BinnedChi2_5draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_7probfit_8costfunc_10BinnedChi2_4draw[] = "BinnedChi2.draw(self, minuit=None, ax=None, parmloc=(0.05, 0.95), nfbins=200, print_par=True, args=None, errors=None, parts=False, no_plot=False)\n\n        Draw comparison histogram of data and the function **f**.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **nfbins** number of points to calculate f\n\n            - **print_par** print parameters and error on the plot.\n              Default True.\n\n            - **no_plot** Set this to true if you only want the return value\n\n        **Returns**\n        \n        ((data_edges, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)\n        ";
+static char __pyx_doc_7probfit_8costfunc_10BinnedChi2_4draw[] = "BinnedChi2.draw(self, minuit=None, ax=None, parmloc=(0.05, 0.95), nfbins=200, print_par=True, args=None, errors=None, parts=False, no_plot=False)\n\n        Draw comparison histogram of data and the function **f**.\n\n        **Arguments**\n\n            - **minuit** Optional but recommended ``iminuit.Minuit`` object.\n              If minuit is not ``None``, the pdf will be drawn using minimum\n              value from minuit and parameters and error will be shown.\n              If minuit is ``None``, then pdf will be drawn using argument from\n              the last call to ``__call__``. Default ``None``\n\n            - **ax** matplotlib axes. If not given it will be drawn on current\n              axes ``gca()``.\n\n            - **parmloc** location of parameter print out. This is passed\n              directy to legend loc named parameter. Default (0.05,0.95).\n\n            - **nfbins** number of points to calculate f\n\n            - **print_par** print parameters and error on the plot.\n              Default True.\n\n            - **no_plot** Set this to true if you only want the return value\n\n        **Returns**\n        \n        ((data_edges, data_y), error, (total_pdf_x, total_pdf_y), parts)\n        ";
 static PyObject *__pyx_pw_7probfit_8costfunc_10BinnedChi2_5draw(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_minuit = 0;
   PyObject *__pyx_v_ax = 0;
@@ -10334,7 +10334,7 @@ static PyObject *__pyx_pw_7probfit_8costfunc_10BinnedChi2_5draw(PyObject *__pyx_
     values[3] = ((PyObject *)__pyx_int_200);
 
     /* "probfit/costfunc.pyx":805
- * 
+ *
  *     def draw(self, minuit=None, ax = None, parmloc=(0.05,0.95), nfbins=200,
  *              print_par=True, args=None, errors=None, parts=False, no_plot=False):             # <<<<<<<<<<<<<<
  *         """
@@ -10448,8 +10448,8 @@ static PyObject *__pyx_pw_7probfit_8costfunc_10BinnedChi2_5draw(PyObject *__pyx_
   __pyx_r = __pyx_pf_7probfit_8costfunc_10BinnedChi2_4draw(((struct __pyx_obj_7probfit_8costfunc_BinnedChi2 *)__pyx_v_self), __pyx_v_minuit, __pyx_v_ax, __pyx_v_parmloc, __pyx_v_nfbins, __pyx_v_print_par, __pyx_v_args, __pyx_v_errors, __pyx_v_parts, __pyx_v_no_plot);
 
   /* "probfit/costfunc.pyx":804
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax = None, parmloc=(0.05,0.95), nfbins=200,             # <<<<<<<<<<<<<<
  *              print_par=True, args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -10473,7 +10473,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_4draw(struct __pyx_obj
   __Pyx_RefNannySetupContext("draw", 0);
 
   /* "probfit/costfunc.pyx":834
- *         ((data_edges, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+ *         ((data_edges, data_y), error, (total_pdf_x, total_pdf_y), parts)
  *         """
  *         return plotting.draw_bx2(self, minuit=minuit, ax=ax,             # <<<<<<<<<<<<<<
  *             parmloc=parmloc, nfbins=nfbins, print_par=print_par,
@@ -10500,7 +10500,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_4draw(struct __pyx_obj
  *         return plotting.draw_bx2(self, minuit=minuit, ax=ax,
  *             parmloc=parmloc, nfbins=nfbins, print_par=print_par,             # <<<<<<<<<<<<<<
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_parmloc, __pyx_v_parmloc) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_nfbins, __pyx_v_nfbins) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -10511,7 +10511,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_4draw(struct __pyx_obj
  *             parmloc=parmloc, nfbins=nfbins, print_par=print_par,
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)             # <<<<<<<<<<<<<<
  * 
- * 
+ *
  */
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_args, __pyx_v_args) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_errors, __pyx_v_errors) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -10519,7 +10519,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_4draw(struct __pyx_obj
   if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_no_plot, __pyx_v_no_plot) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 834; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "probfit/costfunc.pyx":834
- *         ((data_edges, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+ *         ((data_edges, data_y), error, (total_pdf_x, total_pdf_y), parts)
  *         """
  *         return plotting.draw_bx2(self, minuit=minuit, ax=ax,             # <<<<<<<<<<<<<<
  *             parmloc=parmloc, nfbins=nfbins, print_par=print_par,
@@ -10535,8 +10535,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_4draw(struct __pyx_obj
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":804
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax = None, parmloc=(0.05,0.95), nfbins=200,             # <<<<<<<<<<<<<<
  *              print_par=True, args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -10557,11 +10557,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_4draw(struct __pyx_obj
 }
 
 /* "probfit/costfunc.pyx":839
- * 
- * 
+ *
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 1.0
- * 
+ *
  */
 
 /* Python wrapper */
@@ -10584,11 +10584,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_6default_errordef(CYTH
   __Pyx_RefNannySetupContext("default_errordef", 0);
 
   /* "probfit/costfunc.pyx":840
- * 
+ *
  *     def default_errordef(self):
  *         return 1.0             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_float_1_0);
@@ -10596,11 +10596,11 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_6default_errordef(CYTH
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":839
- * 
- * 
+ *
+ *
  *     def default_errordef(self):             # <<<<<<<<<<<<<<
  *         return 1.0
- * 
+ *
  */
 
   /* function exit code */
@@ -10611,8 +10611,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_6default_errordef(CYTH
 }
 
 /* "probfit/costfunc.pyx":843
- * 
- * 
+ *
+ *
  *     def show(self,*arg,**kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -10656,7 +10656,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_8show(struct __pyx_obj
   __Pyx_RefNannySetupContext("show", 0);
 
   /* "probfit/costfunc.pyx":851
- * 
+ *
  *         """
  *         ret = self.draw(*arg,**kwd)             # <<<<<<<<<<<<<<
  *         plt.show()
@@ -10703,8 +10703,8 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_8show(struct __pyx_obj
   goto __pyx_L0;
 
   /* "probfit/costfunc.pyx":843
- * 
- * 
+ *
+ *
  *     def show(self,*arg,**kwd):             # <<<<<<<<<<<<<<
  *         """
  *         Same thing as :meth:`draw`. But show the figure immediately.
@@ -10726,7 +10726,7 @@ static PyObject *__pyx_pf_7probfit_8costfunc_10BinnedChi2_8show(struct __pyx_obj
 }
 
 /* "probfit/costfunc.pyx":707
- * 
+ *
  * cdef class BinnedChi2:
  *     cdef readonly object f             # <<<<<<<<<<<<<<
  *     cdef readonly object vf
@@ -11300,9 +11300,9 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":200
  *             # of flags
- * 
+ *
  *             if info == NULL: return             # <<<<<<<<<<<<<<
- * 
+ *
  *             cdef int copy_shape, i, ndim
  */
   __pyx_t_1 = ((__pyx_v_info == NULL) != 0);
@@ -11312,11 +11312,11 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":203
- * 
+ *
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
- * 
+ *
  */
   __pyx_v_endian_detector = 1;
 
@@ -11324,23 +11324,23 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
- * 
+ *
  *             ndim = PyArray_NDIM(self)
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":206
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
- * 
+ *
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":208
  *             ndim = PyArray_NDIM(self)
- * 
+ *
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
  *                 copy_shape = 1
  *             else:
@@ -11349,7 +11349,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   if (__pyx_t_1) {
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":209
- * 
+ *
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
  *             else:
@@ -11364,7 +11364,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  */
     __pyx_v_copy_shape = 0;
@@ -11373,7 +11373,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":213
  *                 copy_shape = 0
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")
@@ -11382,11 +11382,11 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   if (__pyx_t_1) {
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":214
- * 
+ *
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
  *                 raise ValueError(u"ndarray is not C contiguous")
- * 
+ *
  */
     __pyx_t_2 = ((!(PyArray_CHKFLAGS(__pyx_v_self, NPY_C_CONTIGUOUS) != 0)) != 0);
     __pyx_t_3 = __pyx_t_2;
@@ -11399,7 +11399,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
     __pyx_t_4 = PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 215; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -11411,7 +11411,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":217
  *                 raise ValueError(u"ndarray is not C contiguous")
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
@@ -11420,11 +11420,11 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   if (__pyx_t_3) {
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":218
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
- * 
+ *
  */
     __pyx_t_1 = ((!(PyArray_CHKFLAGS(__pyx_v_self, NPY_F_CONTIGUOUS) != 0)) != 0);
     __pyx_t_2 = __pyx_t_1;
@@ -11437,7 +11437,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             info.buf = PyArray_DATA(self)
  */
     __pyx_t_4 = PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 219; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -11449,7 +11449,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":221
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
- * 
+ *
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
  *             info.ndim = ndim
  *             if copy_shape:
@@ -11457,7 +11457,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":222
- * 
+ *
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
  *             if copy_shape:
@@ -11560,7 +11560,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
  *             info.readonly = not PyArray_ISWRITEABLE(self)
- * 
+ *
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
@@ -11568,13 +11568,13 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
- * 
+ *
  *             cdef int t
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":239
- * 
+ *
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
  *             cdef dtype descr = self.descr
@@ -11596,16 +11596,16 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":244
  *             cdef int offset
- * 
+ *
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
- * 
+ *
  *             if not hasfields and not copy_shape:
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":246
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
- * 
+ *
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
  *                 # do not call releasebuffer
  *                 info.obj = None
@@ -11639,7 +11639,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
- * 
+ *
  *             if not hasfields:
  */
     __Pyx_INCREF(((PyObject *)__pyx_v_self));
@@ -11652,7 +11652,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":253
  *                 info.obj = self
- * 
+ *
  *             if not hasfields:             # <<<<<<<<<<<<<<
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
@@ -11661,7 +11661,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   if (__pyx_t_1) {
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":254
- * 
+ *
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
  *                 if ((descr.byteorder == c'>' and little_endian) or
@@ -12004,7 +12004,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  */
     (__pyx_v_f[0]) = '\x00';
@@ -12044,7 +12044,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 f[0] = c'\0' # Terminate format string
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)
@@ -12067,7 +12067,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
  *                 stdlib.free(info.format)
@@ -12103,7 +12103,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 stdlib.free(info.strides)             # <<<<<<<<<<<<<<
  *                 # info.shape was stored after info.strides in the same block
- * 
+ *
  */
     free(__pyx_v_info->strides);
     goto __pyx_L4;
@@ -12112,7 +12112,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 f[0] = c'\0' # Terminate format string
- * 
+ *
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
  *             if PyArray_HASFIELDS(self):
  *                 stdlib.free(info.format)
@@ -12124,10 +12124,10 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * ctypedef npy_cdouble     complex_t
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__pyx_v_a) {
@@ -12140,10 +12140,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":769
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -12155,10 +12155,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * ctypedef npy_cdouble     complex_t
- * 
+ *
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  */
 
   /* function exit code */
@@ -12174,10 +12174,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":771
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__pyx_v_a, PyObject *__pyx_v_b) {
@@ -12190,10 +12190,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":772
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -12205,10 +12205,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":771
  *     return PyArray_MultiIterNew(1, <void*>a)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  */
 
   /* function exit code */
@@ -12224,10 +12224,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":774
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c) {
@@ -12240,10 +12240,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":775
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -12255,10 +12255,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":774
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  */
 
   /* function exit code */
@@ -12274,10 +12274,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d) {
@@ -12290,10 +12290,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  */
   __Pyx_XDECREF(__pyx_r);
@@ -12305,10 +12305,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  */
 
   /* function exit code */
@@ -12324,10 +12324,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":780
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  */
 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__pyx_v_a, PyObject *__pyx_v_b, PyObject *__pyx_v_c, PyObject *__pyx_v_d, PyObject *__pyx_v_e) {
@@ -12340,10 +12340,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":781
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:
  */
   __Pyx_XDECREF(__pyx_r);
@@ -12355,10 +12355,10 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":780
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
- * 
+ *
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  */
 
   /* function exit code */
@@ -12374,7 +12374,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
  *     # Recursive utility function used in __getbuffer__ to get format
  *     # string. The new location in the format string is returned.
@@ -12420,13 +12420,13 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
  *     cdef tuple fields
- * 
+ *
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     cdef tuple fields
- * 
+ *
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
  *         fields = descr.fields[childname]
  *         child, new_offset = fields
@@ -12447,11 +12447,11 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_3 = 0;
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":795
- * 
+ *
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
  *         child, new_offset = fields
- * 
+ *
  */
     __pyx_t_3 = PyObject_GetItem(__pyx_v_descr->fields, __pyx_v_childname); if (unlikely(__pyx_t_3 == NULL)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 795; __pyx_clineno = __LINE__; goto __pyx_L1_error;};
     __Pyx_GOTREF(__pyx_t_3);
@@ -12463,7 +12463,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  */
     if (likely(__pyx_v_fields != Py_None)) {
@@ -12479,8 +12479,8 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         {__pyx_filename = __pyx_f[1]; __pyx_lineno = 796; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       }
       #if CYTHON_COMPILING_IN_CPYTHON
-      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0); 
-      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1); 
+      __pyx_t_3 = PyTuple_GET_ITEM(sequence, 0);
+      __pyx_t_4 = PyTuple_GET_ITEM(sequence, 1);
       __Pyx_INCREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_t_4);
       #else
@@ -12500,10 +12500,10 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":798
  *         child, new_offset = fields
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
+ *
  */
     __pyx_t_4 = __Pyx_PyInt_From_int((__pyx_v_offset[0])); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 798; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
     __Pyx_GOTREF(__pyx_t_4);
@@ -12516,10 +12516,10 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     if (__pyx_t_6) {
 
       /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":799
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or
  */
       __pyx_t_3 = PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 799; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -12531,7 +12531,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")
@@ -12545,7 +12545,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     if (!__pyx_t_7) {
 
       /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
  *             raise ValueError(u"Non-native byte order not supported")
@@ -12579,7 +12579,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
- * 
+ *
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
  *             f[0] = 120 # "x"; pad byte
@@ -12608,7 +12608,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
  *             offset[0] += 1
- * 
+ *
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
@@ -12616,7 +12616,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
- * 
+ *
  *         offset[0] += child.itemsize
  */
       __pyx_t_10 = 0;
@@ -12625,9 +12625,9 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *             offset[0] += 1
- * 
+ *
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
- * 
+ *
  *         if not PyDataType_HASFIELDS(child):
  */
     __pyx_t_10 = 0;
@@ -12635,7 +12635,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 
     /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":820
  *         offset[0] += child.itemsize
- * 
+ *
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
  *             t = child.type_num
  *             if end - f < 5:
@@ -12644,7 +12644,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     if (__pyx_t_6) {
 
       /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
- * 
+ *
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
  *             if end - f < 5:
@@ -12660,7 +12660,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
  *                 raise RuntimeError(u"Format string allocated too short.")
- * 
+ *
  */
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
@@ -12669,7 +12669,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
- * 
+ *
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
         __pyx_t_4 = PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 823; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -12680,7 +12680,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
 
       /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":826
- * 
+ *
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
@@ -13032,7 +13032,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
  *     return f
- * 
+ *
  */
       __pyx_t_11 = __pyx_f_5numpy__util_dtypestring(__pyx_v_child, __pyx_v_f, __pyx_v_end, __pyx_v_offset); if (unlikely(__pyx_t_11 == NULL)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 849; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
       __pyx_v_f = __pyx_t_11;
@@ -13045,15 +13045,15 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
- * 
- * 
+ *
+ *
  */
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
- * 
+ *
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
  *     # Recursive utility function used in __getbuffer__ to get format
  *     # string. The new location in the format string is returned.
@@ -13077,8 +13077,8 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
 }
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":966
- * 
- * 
+ *
+ *
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
  *      cdef PyObject* baseptr
  *      if base is None:
@@ -13139,7 +13139,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
  *      arr.base = baseptr
- * 
+ *
  */
   Py_XDECREF(__pyx_v_arr->base);
 
@@ -13147,14 +13147,14 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":966
- * 
- * 
+ *
+ *
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
  *      cdef PyObject* baseptr
  *      if base is None:
@@ -13166,7 +13166,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 
 /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     if arr.base is NULL:
  *         return None
@@ -13179,7 +13179,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":977
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
  *         return None
@@ -13215,7 +13215,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     if arr.base is NULL:
  *         return None
@@ -14731,7 +14731,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
   /* "probfit/costfunc.pyx":218
- * 
+ *
  *     def draw(self, minuit=None, bins=100, ax=None, bound=None,
  *              parmloc=(0.05,0.95), nfbins=200, print_par=True, args=None,             # <<<<<<<<<<<<<<
  *              errors=None, parts=False, show_errbars='normal', no_plot=False):
@@ -14742,7 +14742,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple_);
 
   /* "probfit/costfunc.pyx":274
- * 
+ *
  *     def draw_residual(self, minuit=None, bins=100, ax=None, bound=None,
  *                       parmloc=(0.05,0.95), print_par=False, args=None, errors=None,             # <<<<<<<<<<<<<<
  *                       show_errbars=True, errbar_algo='normal', norm=False):
@@ -14753,7 +14753,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__2);
 
   /* "probfit/costfunc.pyx":510
- * 
+ *
  *     def draw(self, minuit=None, ax = None,
  *             parmloc=(0.05,0.95), nfbins=200, print_par=True,             # <<<<<<<<<<<<<<
  *             args=None, errors=None, parts=False, no_plot=False):
@@ -14765,7 +14765,7 @@ static int __Pyx_InitCachedConstants(void) {
 
   /* "probfit/costfunc.pyx":545
  *             args=args, errors=errors, parts=parts, no_plot=no_plot)
- * 
+ *
  *     def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),             # <<<<<<<<<<<<<<
  *                       print_par=False, args=None, errors=None, norm=False):
  *         """
@@ -14775,8 +14775,8 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__4);
 
   /* "probfit/costfunc.pyx":653
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax=None, parmloc=(0.05,0.95), print_par=True,             # <<<<<<<<<<<<<<
  *              args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -14789,7 +14789,7 @@ static int __Pyx_InitCachedConstants(void) {
  *         #check if error is too small
  *         if np.any(self.err<1e-5):
  *             raise ValueError('some bins are too small to do a chi2 fit. change your range')             # <<<<<<<<<<<<<<
- * 
+ *
  *         self.bins = bins
  */
   __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_s_some_bins_are_too_small_to_do_a); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 788; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -14797,8 +14797,8 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__6);
 
   /* "probfit/costfunc.pyx":804
- * 
- * 
+ *
+ *
  *     def draw(self, minuit=None, ax = None, parmloc=(0.05,0.95), nfbins=200,             # <<<<<<<<<<<<<<
  *              print_par=True, args=None, errors=None, parts=False, no_plot=False):
  *         """
@@ -14811,7 +14811,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
   __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_C_contiguous); if (unlikely(!__pyx_tuple__8)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 215; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -14822,7 +14822,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
- * 
+ *
  *             info.buf = PyArray_DATA(self)
  */
   __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_Fortran_contiguou); if (unlikely(!__pyx_tuple__9)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 219; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -14841,10 +14841,10 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GIVEREF(__pyx_tuple__10);
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":799
- * 
+ *
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
- * 
+ *
  *         if ((child.byteorder == c'>' and little_endian) or
  */
   __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor); if (unlikely(!__pyx_tuple__11)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 799; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -14866,7 +14866,7 @@ static int __Pyx_InitCachedConstants(void) {
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
- * 
+ *
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
   __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__13)) {__pyx_filename = __pyx_f[1]; __pyx_lineno = 823; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -15098,7 +15098,7 @@ PyMODINIT_FUNC PyInit_costfunc(void)
   if (__Pyx_SetAttrString(__pyx_m, "UnbinnedLH", (PyObject *)&__pyx_type_7probfit_8costfunc_UnbinnedLH) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 126; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_ptype_7probfit_8costfunc_UnbinnedLH = &__pyx_type_7probfit_8costfunc_UnbinnedLH;
   /*--- Type import code ---*/
-  __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type", 
+  __pyx_ptype_7cpython_4type_type = __Pyx_ImportType(__Pyx_BUILTIN_MODULE_NAME, "type",
   #if CYTHON_COMPILING_IN_PYPY
   sizeof(PyTypeObject),
   #else
@@ -15237,7 +15237,7 @@ PyMODINIT_FUNC PyInit_costfunc(void)
  * from nputil import float2double, mid, minmax
  * from functor cimport construct_arg
  * from util import describe, remove_prefix             # <<<<<<<<<<<<<<
- * 
+ *
  * np.import_array()
  */
   __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 13; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -15263,9 +15263,9 @@ PyMODINIT_FUNC PyInit_costfunc(void)
 
   /* "probfit/costfunc.pyx":15
  * from util import describe, remove_prefix
- * 
+ *
  * np.import_array()             # <<<<<<<<<<<<<<
- * 
+ *
  * cdef extern from "math.h":
  */
   import_array();
@@ -15282,7 +15282,7 @@ PyMODINIT_FUNC PyInit_costfunc(void)
 
   /* "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":976
  *      arr.base = baseptr
- * 
+ *
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
  *     if arr.base is NULL:
  *         return None

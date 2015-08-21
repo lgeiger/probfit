@@ -65,9 +65,8 @@ def _param_text(parameters, arg, error):
         txt += u'\n'
     return txt
 
+
 # from UML
-
-
 def draw_ulh(self, minuit=None, bins=100, ax=None, bound=None,
              parmloc=(0.05, 0.95), nfbins=200, print_par=True, grid=True,
              args=None, errors=None, parts=False, show_errbars='normal',
@@ -87,18 +86,18 @@ def draw_ulh(self, minuit=None, bins=100, ax=None, bound=None,
     if not show_errbars:
         if not no_plot:
             ax.hist(mid(e), bins=e, weights=n, histtype='step')
-        error_ret = (np.sqrt(n), np.sqrt(n))
+        error_ret = np.sqrt(n)
     else:
         w2 = None
         if show_errbars == 'normal':
             w2 = n
-            error_ret = (np.sqrt(n), np.sqrt(n))
+            error_ret = np.sqrt(n)
         elif show_errbars == 'sumw2':
             weights = None
             if self.weights is not None:
                 weights = self.weights**2
             w2, e = np.histogram(self.data, bins=e, weights=weights)
-            error_ret = (np.sqrt(w2), np.sqrt(w2))
+            error_ret = np.sqrt(w2)
         else:
             raise ValueError('show_errbars must be \'normal\' or \'sumw2\'')
         if not no_plot:
@@ -198,11 +197,11 @@ def draw_x2(self, minuit=None, ax=None, parmloc=(0.05, 0.95), print_par=True,
     if data_err is None:
         if not no_plot:
             ax.plot(x, y, '+')
-        error_ret = (np.ones(len(self.x)), np.ones(len(self.x)))
+        error_ret = np.ones(len(self.x))
     else:
         if not no_plot:
             ax.errorbar(x, y, data_err, fmt='.')
-        error_ret = (data_err, data_err)
+        error_ret = data_err
     draw_arg = [('lw', 2)]
     draw_arg.append(('color', 'r'))
 
@@ -276,7 +275,7 @@ def draw_bx2(self, minuit=None, parmloc=(0.05, 0.95), nfbins=500, ax=None,
     if not no_plot:
         ax.errorbar(m, self.h, self.err, fmt='.')
     data_ret = (self.edges, self.h)
-    error_ret = (self.err, self.err)
+    error_ret = self.err
 
     bound = (self.edges[0], self.edges[-1])
 
@@ -341,7 +340,7 @@ def draw_blh(self, minuit=None, parmloc=(0.05, 0.95),
     if not no_plot:
         ax.errorbar(m, n, err, fmt='.')
     data_ret = (self.edges, n)
-    error_ret = (err, err)
+    error_ret = err
 
     draw_arg = [('lw', 2)]
     if not parts:

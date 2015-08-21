@@ -175,7 +175,7 @@ cdef class UnbinnedLH:
 
             - **extended_bound** Bound for calculating extended term.
               Default None(minimum and maximum of data will be used).
-            - **extended_nint** number pieces to sum up as 
+            - **extended_nint** number pieces to sum up as
               integral for extended term (using simpson3/8). Default 100.
 
         .. note::
@@ -259,10 +259,10 @@ cdef class UnbinnedLH:
                 * None : no errorbars (shown as a step histogram)
 
             - **no_plot** Set this to True if you only want the return value
-        
+
         **Returns**
-        
-        ((data_edges, datay), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+
+        ((data_edges, datay), error, (total_pdf_x, total_pdf_y), parts)
 
         """
         return plotting.draw_ulh(self, minuit=minuit, bins=bins, ax=ax,
@@ -317,8 +317,8 @@ cdef class UnbinnedLH:
 
         """
         return plotting.draw_residual_ulh(self, minuit=minuit, bins=bins, ax=ax,
-                   bound=bound, parmloc=parmloc, print_par=print_par, args=args, 
-                   errors=errors, show_errbars=show_errbars, 
+                   bound=bound, parmloc=parmloc, print_par=print_par, args=args,
+                   errors=errors, show_errbars=show_errbars,
                    errbar_algo=errbar_algo, norm=norm)
 
     def default_errordef(self):
@@ -449,7 +449,7 @@ cdef class BinnedLH:
               unweighted statistics. Default False.
 
             - **nint_subdiv** controls how BinnedLH do the integral to find
-              expect number of event in each bin. The number represent the 
+              expect number of event in each bin. The number represent the
               number of subdivisions in each bin to do simpson3/8 rule.
               Default 1.
 
@@ -534,15 +534,15 @@ cdef class BinnedLH:
             - **no_plot** Set this to True if you only want the return value
 
         **Returns**
-        
-        ((data_edges, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+
+        ((data_edges, data_y), error, (total_pdf_x, total_pdf_y), parts)
 
         """
         return plotting.draw_blh(self, minuit=minuit,
             ax=ax, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
             args=args, errors=errors, parts=parts, no_plot=no_plot)
 
-    def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95), 
+    def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),
                       print_par=False, args=None, errors=None, norm=False):
         """
         Draw difference between data and pdf.
@@ -677,8 +677,8 @@ cdef class Chi2Regression:
             - **no_plot** Set this to true if you only want the return value
 
         **Returns**
-        
-        ((data_x, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+
+        ((data_x, data_y), error, (total_pdf_x, total_pdf_y), parts)
         """
         return plotting.draw_x2(self, minuit=minuit, ax=ax, parmloc=parmloc,
                 print_par=print_par, args=args, errors=errors, parts=parts,
@@ -759,7 +759,7 @@ cdef class BinnedChi2:
               :math:`\sqrt{\sum_{j \in \\textrm{bin}_i} w_j^2}`.
 
             - **nint_subdiv** controls how BinnedChi2 do the integral to find
-              expect number of event in each bin. The number represent the 
+              expect number of event in each bin. The number represent the
               number of subdivisions in each bin to do simpson3/8.
               Default 1.
         """
@@ -828,8 +828,8 @@ cdef class BinnedChi2:
             - **no_plot** Set this to true if you only want the return value
 
         **Returns**
-        
-        ((data_edges, data_y), (errorp,errorm), (total_pdf_x, total_pdf_y), parts)
+
+        ((data_edges, data_y), error, (total_pdf_x, total_pdf_y), parts)
         """
         return plotting.draw_bx2(self, minuit=minuit, ax=ax,
             parmloc=parmloc, nfbins=nfbins, print_par=print_par,
