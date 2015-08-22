@@ -161,6 +161,7 @@ def draw_residual_ulh(self, minuit=None, bins=100, ax=None, bound=None,
         sel = yerr > 0
         n[sel] /= yerr[sel]
         yerr = np.ones(len(yerr))
+    data_ret = e, n
 
     if show_errbars:
         ax.errorbar(mid(e), n, yerr, fmt='b.', capsize=0)
@@ -177,6 +178,8 @@ def draw_residual_ulh(self, minuit=None, bins=100, ax=None, bound=None,
     if print_par:
         ax.text(parmloc[0], parmloc[1], txt, ha='left', va='top',
                 transform=ax.transAxes)
+
+    return (data_ret, yerr)
 
 
 # from chi2 regression
@@ -249,15 +252,19 @@ def draw_x2_residual(self, minuit=None, ax=None, args=None, errors=None,
     yf = vector_apply(f, x, *arg)
 
     yplot = y - yf
+    data_ret = x, yplot
     eplot = data_err if data_err is not None else np.zeros(len(x))
     if norm:
         if data_err is None:
             warn(RuntimeWarning('No error on data points; cannot normalize to error'))
         else:
             yplot = yplot / data_err
-            eplot = data_err / data_err
+            eplot = np.ones(len(data_err))
+
     ax.errorbar(x, yplot, eplot, fmt='b+')
     ax.grid(grid)
+
+    return (data_ret, eplot)
 
 
 # from binned chi2
@@ -400,6 +407,7 @@ def draw_residual_blh(self, minuit=None, parmloc=(0.05, 0.95),
         n[sel] /= err[sel]
         err = np.ones(len(err))
 
+    data_ret = self.edges, n
     ax.errorbar(m, n, err, fmt='.')
 
     ax.plot([self.edges[0], self.edges[-1]], [0., 0.], 'r-')
@@ -411,6 +419,8 @@ def draw_residual_blh(self, minuit=None, parmloc=(0.05, 0.95),
     if print_par:
         ax.text(parmloc[0], parmloc[1], txt, ha='left', va='top',
                 transform=ax.transAxes)
+
+    return (data_ret, err)
 
 
 def draw_compare(f, arg, edges, data, errors=None, ax=None, grid=True,
@@ -447,7 +457,7 @@ def draw_compare(f, arg, edges, data, errors=None, ax=None, grid=True,
             for y in py:
                 tmpy = np.array(y)
                 ax.plot(x, tmpy * scale, lw=2, alpha=0.5)
-    plt.grid(grid)
+    ax.grid(grid)
     return x, yf, data
 
 
@@ -492,7 +502,7 @@ def draw_pdf(f, arg, bound, bins=100, scale=1.0, density=True,
 
 def draw_pdf_with_edges(f, arg, edges, ax=None, scale=1.0, density=True,
                         normed_pdf=False, **kwds):
-    x = (edges[:-1] + edges[1:]) / 2.0
+    x = mid(edges)
     bw = np.diff(edges)
     scale *= bw if not density else 1.
 
