@@ -253,12 +253,14 @@ cdef class UnbinnedLH:
             - **errors** Optional dictionary of errors. If minuit is not given,
               parameter errors are determined from **errors**. Default None.
 
+            - **parts** draw components of PDF. Default False.
+
             - **show_errbars** Show error bars. Default 'normal'
                 * 'normal' : error = sqrt( sum of weight )
                 * 'sumw2'  : error = sqrt( sum of weight**2 )
                 * None : no errorbars (shown as a step histogram)
 
-            - **no_plot** Set this to True if you only want the return value
+            - **no_plot** Set this to True if you only want the return value.
 
         **Returns**
 
@@ -313,7 +315,11 @@ cdef class UnbinnedLH:
                'normal' : error = sqrt( sum of weight )  [Default]
                'sumw2'  : error = sqrt( sum of weight**2 )
 
-            - **norm** Normalzed by the error bar or not. Default False.
+            - **norm** Normalized by the error bar or not. Default False.
+
+        **Returns**
+
+        ((data_edges, datay), error)
 
         """
         return plotting.draw_residual_ulh(self, minuit=minuit, bins=bins, ax=ax,
@@ -531,6 +537,15 @@ cdef class BinnedLH:
             - **print_par** print parameters and error on the plot.
               Default True.
 
+            - **args** Optional. If minuit is not given, parameter value is
+              determined from args. This can be dictionary of the form
+              `{'a':1.0, 'b':1.0}` or list of values. Default None.
+
+            - **errors** Optional dictionary of errors. If minuit is not given,
+              parameter errors are determined from **errors**. Default None.
+
+            - **parts** draw components of PDF. Default False.
+
             - **no_plot** Set this to True if you only want the return value
 
         **Returns**
@@ -542,7 +557,7 @@ cdef class BinnedLH:
             ax=ax, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
             args=args, errors=errors, parts=parts, no_plot=no_plot)
 
-    def draw_residual(self, minuit=None, ax = None, parmloc=(0.05,0.95),
+    def draw_residual(self, minuit=None, ax=None, parmloc=(0.05,0.95),
                       print_par=False, args=None, errors=None, norm=False):
         """
         Draw difference between data and pdf.
@@ -564,8 +579,20 @@ cdef class BinnedLH:
             - **print_par** print parameters and error on the plot.
               Default True.
 
+            - **args** Optional. If minuit is not given, parameter value is
+              determined from args. This can be dictionary of the form
+              `{'a':1.0, 'b':1.0}` or list of values. Default None.
+
+            - **errors** Optional dictionary of errors. If minuit is not given,
+              parameter errors are determined from **errors**. Default None.
+
             - **norm** If True, draw difference normalized by error
                Default False.
+
+        **Returns**
+
+        ((data_edges, datay), error)
+
         """
         return plotting.draw_residual_blh(self, minuit=minuit,
             ax=ax, parmloc=parmloc, print_par=print_par,
@@ -672,9 +699,16 @@ cdef class Chi2Regression:
             - **print_par** print parameters and error on the plot.
               Default True.
 
+            - **args** Optional. If minuit is not given, parameter value is
+              determined from args. This can be dictionary of the form
+              `{'a':1.0, 'b':1.0}` or list of values. Default None.
+
+            - **errors** Optional dictionary of errors. If minuit is not given,
+              parameter errors are determined from **errors**. Default None.
+
             - **parts** draw components of PDF. Default False.
 
-            - **no_plot** Set this to true if you only want the return value
+            - **no_plot** Set this to true if you only want the return value.
 
         **Returns**
 
@@ -697,10 +731,34 @@ cdef class Chi2Regression:
         plt.show()
         return ret
 
-    def draw_residual(self, minuit=None, ax=None, args=None, errors=None, grid=True,
-                      norm=False):
-        plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args, errors= errors,
-                                   grid=grid, norm=norm)
+    def draw_residual(self, minuit=None, ax=None, args=None, errors=None,
+                      grid=True, norm=False):
+        """
+        Draw difference between points (**x**,**y**) and the function **f**.
+
+        **Arguments**
+
+          - **minuit** Optional but recommended ``iminuit.Minuit`` object.
+            If minuit is not ``None``, the pdf will be drawn using minimum
+            value from minuit and parameters and error will be shown.
+            If minuit is ``None``, then pdf will be drawn using argument from
+            the last call to ``__call__``. Default ``None``
+
+          - **ax** matplotlib axes. If not given it will be drawn on current
+            axes ``gca()``.
+
+          - **errors** Optional dictionary of errors. If minuit is not given,
+            parameter errors are determined from **errors**. Default None.
+
+          - **norm** Normalized by the error bar or not. Default False.
+
+        **Returns**
+
+        ((data_x, data_y), error)
+
+        """
+        plotting.draw_x2_residual(self, minuit=minuit, ax=ax, args=args,
+                                  errors= errors, grid=grid, norm=norm)
 
 
 cdef class BinnedChi2:
@@ -820,12 +878,21 @@ cdef class BinnedChi2:
             - **parmloc** location of parameter print out. This is passed
               directy to legend loc named parameter. Default (0.05,0.95).
 
-            - **nfbins** number of points to calculate f
+            - **nfbins** number of points to calculate f. Default 200.
 
             - **print_par** print parameters and error on the plot.
               Default True.
 
-            - **no_plot** Set this to true if you only want the return value
+            - **args** Optional. If minuit is not given, parameter value is
+              determined from args. This can be dictionary of the form
+              `{'a':1.0, 'b':1.0}` or list of values. Default None.
+
+            - **errors** Optional dictionary of errors. If minuit is not given,
+              parameter errors are determined from **errors**. Default None.
+
+            - **parts** draw components of PDF. Default False.
+
+            - **no_plot** Set this to true if you only want the return value.
 
         **Returns**
 
