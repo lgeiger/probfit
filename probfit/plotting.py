@@ -121,6 +121,7 @@ def draw_ulh(self, minuit=None, bins=100, ax=None, bound=None,
                 part_ret.append(ret)
     if not no_plot:
         ax.grid(grid)
+        ax.set_axisbelow(True)
 
     txt = _param_text(describe(self), arg, error)
     if not no_plot and print_par:
@@ -173,6 +174,7 @@ def draw_residual_ulh(self, minuit=None, bins=100, ax=None, bound=None,
     ax.plot([e[0], e[-1]], [0., 0.], 'r-')
 
     ax.grid(grid)
+    ax.set_axisbelow(True)
 
     txt = _param_text(describe(self), arg, error)
     if print_par:
@@ -213,6 +215,7 @@ def draw_x2(self, minuit=None, ax=None, parmloc=(0.05, 0.95), print_par=True,
 
     if not no_plot:
         ax.grid(grid)
+        ax.set_axisbelow(True)
 
     txt = _param_text(describe(self), arg, error)
 
@@ -263,6 +266,7 @@ def draw_x2_residual(self, minuit=None, ax=None, args=None, errors=None,
 
     ax.errorbar(x, yplot, eplot, fmt='b+')
     ax.grid(grid)
+    ax.set_axisbelow(True)
 
     return (data_ret, eplot)
 
@@ -307,6 +311,7 @@ def draw_bx2(self, minuit=None, parmloc=(0.05, 0.95), nfbins=500, ax=None,
 
     if not no_plot:
         ax.grid(grid)
+        ax.set_axisbelow(True)
 
     txt = _param_text(describe(self), arg, error)
 
@@ -370,6 +375,7 @@ def draw_blh(self, minuit=None, parmloc=(0.05, 0.95),
                 part_ret.append(tmp)
     if not no_plot:
         ax.grid(grid)
+        ax.set_axisbelow(True)
 
     txt = _param_text(describe(self), arg, error)
 
@@ -413,6 +419,7 @@ def draw_residual_blh(self, minuit=None, parmloc=(0.05, 0.95),
     ax.plot([self.edges[0], self.edges[-1]], [0., 0.], 'r-')
 
     ax.grid(grid)
+    ax.set_axisbelow(True)
 
     txt = _param_text(describe(self), arg, error)
 
@@ -458,6 +465,8 @@ def draw_compare(f, arg, edges, data, errors=None, ax=None, grid=True,
                 tmpy = np.array(y)
                 ax.plot(x, tmpy * scale, lw=2, alpha=0.5)
     ax.grid(grid)
+    ax.set_axisbelow(True)
+
     return x, yf, data
 
 
