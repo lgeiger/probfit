@@ -216,7 +216,8 @@ cdef class UnbinnedLH:
 
     def draw(self, minuit=None, bins=100, ax=None, bound=None,
              parmloc=(0.05,0.95), nfbins=200, print_par=True, args=None,
-             errors=None, parts=False, show_errbars='normal', no_plot=False):
+             errors=None, parts=False, show_errbars=True, errbar_algo='normal',
+             no_plot=False):
         """
         Draw comparison between histogram of data and pdf.
 
@@ -255,10 +256,12 @@ cdef class UnbinnedLH:
 
             - **parts** draw components of PDF. Default False.
 
-            - **show_errbars** Show error bars. Default 'normal'
-                * 'normal' : error = sqrt( sum of weight )
-                * 'sumw2'  : error = sqrt( sum of weight**2 )
-                * None : no errorbars (shown as a step histogram)
+            - **show_errbars** Show error bars. Default True.
+
+            - **errbar_algo** How the error bars are calculated
+
+                - 'normal' : error = sqrt( sum of weight )  [Default]
+                - 'sumw2'  : error = sqrt( sum of weight**2 )
 
             - **no_plot** Set this to True if you only want the return value.
 
@@ -270,7 +273,7 @@ cdef class UnbinnedLH:
         return plotting.draw_ulh(self, minuit=minuit, bins=bins, ax=ax,
             bound=bound, parmloc=parmloc, nfbins=nfbins, print_par=print_par,
             args=args, errors=errors, parts=parts, show_errbars=show_errbars,
-            no_plot=no_plot)
+            errbar_algo=errbar_algo, no_plot=no_plot)
 
     def draw_residual(self, minuit=None, bins=100, ax=None, bound=None,
                       parmloc=(0.05,0.95), print_par=False, args=None, errors=None,
@@ -309,7 +312,7 @@ cdef class UnbinnedLH:
             - **errors** Optional dictionary of errors. If minuit is not given,
               parameter errors are determined from **errors**. Default None.
 
-            - **show_errbars** Show error bars. Default True
+            - **show_errbars** Show error bars. Default True.
 
             - **errbar_algo** How the error bars are calculated
                'normal' : error = sqrt( sum of weight )  [Default]
